@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "@/styles/globals.css";
+import { onest } from "@/styles/fonts";
 
 export const metadata: Metadata = {
   title: "AnimeZilla",
@@ -15,8 +16,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es">
-      <body>
+    <html lang="es" data-theme="dark">
+      <body className={`${onest.className} bg-background text-text`}>
         {children}
       </body>
     </html>

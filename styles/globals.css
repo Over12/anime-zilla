@@ -1,7 +1,29 @@
 @import "tailwindcss";
 
+:root {
+  --text: oklch(13.32% 0.035 265.41);
+  --background: oklch(97.74% 0.009 279.69);
+  --primary: oklch(47.15% 0.241 267.62);
+  --secondary: oklch(77.81% 0.149 332.55);
+  --accent: oklch(64.96% 0.198 353.17);
+}
+
+[data-theme = 'dark'] {
+  --text: oklch(94.75% 0.021 274.04);
+  --background: oklch(8.99% 0.027 268.54);
+  --primary: oklch(45.58% 0.240 267.01);
+  --secondary: oklch(37.75% 0.152 335.43);
+  --accent: oklch(50.56% 0.190 357.15);
+}
+
+@theme inline {
+  --color-text: var(--text);
+  --color-background: var(--background);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-accent: var(--accent);
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
