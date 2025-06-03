@@ -1,0 +1,849 @@
+{
+  "pagination": {
+    "last_visible_page": 17,
+    "has_next_page": true,
+    "current_page": 1,
+    "items": {
+      "count": 5,
+      "total": 81,
+      "per_page": 5
+    }
+  },
+  "data": [
+    {
+      "mal_id": 51818,
+      "url": "https://myanimelist.net/anime/51818/Enen_no_Shouboutai__San_no_Shou",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1527/146836.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1527/146836t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1527/146836l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1527/146836.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1527/146836t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1527/146836l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "nz-VCl7yUAw",
+        "url": "https://www.youtube.com/watch?v=nz-VCl7yUAw",
+        "embed_url": "https://www.youtube.com/embed/nz-VCl7yUAw?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/nz-VCl7yUAw/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Enen no Shouboutai: San no Shou"
+        },
+        {
+          "type": "Synonym",
+          "title": "Enen no Shouboutai 3rd Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "炎炎ノ消防隊 参ノ章"
+        },
+        {
+          "type": "English",
+          "title": "Fire Force Season 3"
+        }
+      ],
+      "title": "Enen no Shouboutai: San no Shou",
+      "title_english": "Fire Force Season 3",
+      "title_japanese": "炎炎ノ消防隊 参ノ章",
+      "title_synonyms": [
+        "Enen no Shouboutai 3rd Season"
+      ],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-05T00:00:00+00:00",
+        "to": "2025-06-21T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": 21,
+            "month": 6,
+            "year": 2025
+          }
+        },
+        "string": "Apr 5, 2025 to Jun 21, 2025"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.94,
+      "scored_by": 18605,
+      "rank": 747,
+      "popularity": 1195,
+      "members": 221314,
+      "favorites": 1466,
+      "synopsis": "Third season of Enen no Shouboutai.",
+      "background": "Enen no Shouboutai: San no Shou aired on MBS' Animeism block.",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "01:53",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 01:53 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 143,
+          "type": "anime",
+          "name": "Mainichi Broadcasting System",
+          "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+        },
+        {
+          "mal_id": 159,
+          "type": "anime",
+          "name": "Kodansha",
+          "url": "https://myanimelist.net/anime/producer/159/Kodansha"
+        },
+        {
+          "mal_id": 1542,
+          "type": "anime",
+          "name": "DMM.com",
+          "url": "https://myanimelist.net/anime/producer/1542/DMMcom"
+        },
+        {
+          "mal_id": 2232,
+          "type": "anime",
+          "name": "ADK Marketing Solutions",
+          "url": "https://myanimelist.net/anime/producer/2232/ADK_Marketing_Solutions"
+        },
+        {
+          "mal_id": 2680,
+          "type": "anime",
+          "name": "Sankyo",
+          "url": "https://myanimelist.net/anime/producer/2680/Sankyo_"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 287,
+          "type": "anime",
+          "name": "David Production",
+          "url": "https://myanimelist.net/anime/producer/287/David_Production"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 82,
+          "type": "anime",
+          "name": "Urban Fantasy",
+          "url": "https://myanimelist.net/anime/genre/82/Urban_Fantasy"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 56038,
+      "url": "https://myanimelist.net/anime/56038/Lazarus",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1098/150300.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1098/150300t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1098/150300l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1098/150300.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1098/150300t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1098/150300l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "7d2ot3PQBMs",
+        "url": "https://www.youtube.com/watch?v=7d2ot3PQBMs",
+        "embed_url": "https://www.youtube.com/embed/7d2ot3PQBMs?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/7d2ot3PQBMs/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/7d2ot3PQBMs/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/7d2ot3PQBMs/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/7d2ot3PQBMs/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/7d2ot3PQBMs/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Lazarus"
+        },
+        {
+          "type": "Japanese",
+          "title": "ラザロ"
+        }
+      ],
+      "title": "Lazarus",
+      "title_english": null,
+      "title_japanese": "ラザロ",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Original",
+      "episodes": 13,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 6, 2025 to ?"
+      },
+      "duration": "23 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 7.34,
+      "scored_by": 17702,
+      "rank": 2680,
+      "popularity": 1436,
+      "members": 179456,
+      "favorites": 1063,
+      "synopsis": "The year is 2052—an era of unprecedented peace and prosperity prevails across the globe. The reason for this: mankind has been freed from sickness and pain. Nobel Prize winning neuroscientist Dr. Skinner has developed a miracle cure-all drug with no apparent drawbacks called Hapuna. Hapuna soon becomes ubiquitous... and essential. However, soon after Hapuna is officially introduced, Dr. Skinner vanishes.\n\nThree years later, the world has moved on. But Dr. Skinner has returned—this time, as a harbinger of doom. Skinner announces that Hapuna has a short half-life. Everyone who has taken it will die approximately three years later. Death is coming for this sinful world—and coming soon.\n\nAs a response to this threat, a special task force of five agents is gathered from across the world to save humanity from Skinner’s plan. This group is called \"Lazarus.\" Can they find Skinner and develop a vaccine before time runs out?\n\n(Source: Adult Swim, edited)",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "23:45",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 23:45 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 1856,
+          "type": "anime",
+          "name": "dugout",
+          "url": "https://myanimelist.net/anime/producer/1856/dugout"
+        },
+        {
+          "mal_id": 2019,
+          "type": "anime",
+          "name": "Sola Entertainment",
+          "url": "https://myanimelist.net/anime/producer/2019/Sola_Entertainment"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 569,
+          "type": "anime",
+          "name": "MAPPA",
+          "url": "https://myanimelist.net/anime/producer/569/MAPPA"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 41,
+          "type": "anime",
+          "name": "Suspense",
+          "url": "https://myanimelist.net/anime/genre/41/Suspense"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 59160,
+      "url": "https://myanimelist.net/anime/59160/Wind_Breaker_Season_2",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1526/148873.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1526/148873t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1526/148873l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1526/148873.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1526/148873t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1526/148873l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "qaR2_4tYhq8",
+        "url": "https://www.youtube.com/watch?v=qaR2_4tYhq8",
+        "embed_url": "https://www.youtube.com/embed/qaR2_4tYhq8?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/qaR2_4tYhq8/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/qaR2_4tYhq8/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/qaR2_4tYhq8/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/qaR2_4tYhq8/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/qaR2_4tYhq8/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Wind Breaker Season 2"
+        },
+        {
+          "type": "Synonym",
+          "title": "Winbre"
+        },
+        {
+          "type": "Synonym",
+          "title": "WBK"
+        },
+        {
+          "type": "Japanese",
+          "title": "WIND BREAKER Season 2"
+        },
+        {
+          "type": "English",
+          "title": "Wind Breaker Season 2"
+        }
+      ],
+      "title": "Wind Breaker Season 2",
+      "title_english": "Wind Breaker Season 2",
+      "title_japanese": "WIND BREAKER Season 2",
+      "title_synonyms": [
+        "Winbre",
+        "WBK"
+      ],
+      "type": "TV",
+      "source": "Web manga",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-04T00:00:00+00:00",
+        "to": "2025-06-20T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": 20,
+            "month": 6,
+            "year": 2025
+          }
+        },
+        "string": "Apr 4, 2025 to Jun 20, 2025"
+      },
+      "duration": "23 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.85,
+      "scored_by": 20057,
+      "rank": 941,
+      "popularity": 1710,
+      "members": 145110,
+      "favorites": 732,
+      "synopsis": "Second season of Wind Breaker.",
+      "background": "Wind Breaker Season 2 aired on MBS and TBS' Super Animeism Turbo block.",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "00:26",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 00:26 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 143,
+          "type": "anime",
+          "name": "Mainichi Broadcasting System",
+          "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+        },
+        {
+          "mal_id": 159,
+          "type": "anime",
+          "name": "Kodansha",
+          "url": "https://myanimelist.net/anime/producer/159/Kodansha"
+        },
+        {
+          "mal_id": 1734,
+          "type": "anime",
+          "name": "Tohan Corporation",
+          "url": "https://myanimelist.net/anime/producer/1734/Tohan_Corporation"
+        },
+        {
+          "mal_id": 2435,
+          "type": "anime",
+          "name": "Aiming",
+          "url": "https://myanimelist.net/anime/producer/2435/Aiming"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1835,
+          "type": "anime",
+          "name": "CloverWorks",
+          "url": "https://myanimelist.net/anime/producer/1835/CloverWorks"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 55,
+          "type": "anime",
+          "name": "Delinquents",
+          "url": "https://myanimelist.net/anime/genre/55/Delinquents"
+        },
+        {
+          "mal_id": 23,
+          "type": "anime",
+          "name": "School",
+          "url": "https://myanimelist.net/anime/genre/23/School"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 59597,
+      "url": "https://myanimelist.net/anime/59597/Witch_Watch",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1988/148017.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1988/148017t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1988/148017l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1988/148017.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1988/148017t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1988/148017l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "mLOi_84AlOg",
+        "url": "https://www.youtube.com/watch?v=mLOi_84AlOg",
+        "embed_url": "https://www.youtube.com/embed/mLOi_84AlOg?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/mLOi_84AlOg/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/mLOi_84AlOg/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/mLOi_84AlOg/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/mLOi_84AlOg/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/mLOi_84AlOg/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Witch Watch"
+        },
+        {
+          "type": "Japanese",
+          "title": "ウィッチウォッチ"
+        },
+        {
+          "type": "English",
+          "title": "Witch Watch"
+        }
+      ],
+      "title": "Witch Watch",
+      "title_english": "Witch Watch",
+      "title_japanese": "ウィッチウォッチ",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 26,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Apr 6, 2025 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.49,
+      "scored_by": 16977,
+      "rank": 2033,
+      "popularity": 1988,
+      "members": 120495,
+      "favorites": 377,
+      "synopsis": "Nico Wakatsuki has finished her six years of witch training and is moving back to town by herself. As a new witch, she must choose a familiar to accompany her. However, unlike the other witches, she wishes to pick a non-animal familiar. There's no better companion than Morihito \"Moi\" Otogi—her childhood friend who happens to be an ogre. Morihito is vehemently opposed to being her servant, but he reluctantly accepts his fate after learning that a curse would revert him into a strange cow-tiger hybrid were he to disobey a witch's order.\n\nDue to Morihito's father leaving for a business trip and Nico's mother remaining behind in the Witches' Holy Land, the two teens find themselves living together under the same roof. While Nico is ecstatic to be living with her crush, Morihito finds that her magical antics and overall clumsiness create more problems than solutions. With a prophesied disaster to befall Nico within the year, Morihito must do everything he can to protect her as her bodyguard while also upholding his duties as her familiar.\n\n[Written by MAL Rewrite]",
+      "background": "",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "17:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 17:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Shogakukan-Shueisha Productions",
+          "url": "https://myanimelist.net/anime/producer/62/Shogakukan-Shueisha_Productions"
+        },
+        {
+          "mal_id": 109,
+          "type": "anime",
+          "name": "Shochiku",
+          "url": "https://myanimelist.net/anime/producer/109/Shochiku"
+        },
+        {
+          "mal_id": 143,
+          "type": "anime",
+          "name": "Mainichi Broadcasting System",
+          "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+        },
+        {
+          "mal_id": 166,
+          "type": "anime",
+          "name": "Movic",
+          "url": "https://myanimelist.net/anime/producer/166/Movic"
+        },
+        {
+          "mal_id": 1365,
+          "type": "anime",
+          "name": "Shueisha",
+          "url": "https://myanimelist.net/anime/producer/1365/Shueisha"
+        },
+        {
+          "mal_id": 1501,
+          "type": "anime",
+          "name": "JR East Marketing & Communications",
+          "url": "https://myanimelist.net/anime/producer/1501/JR_East_Marketing___Communications"
+        },
+        {
+          "mal_id": 2045,
+          "type": "anime",
+          "name": "Myrica Music",
+          "url": "https://myanimelist.net/anime/producer/2045/Myrica_Music"
+        },
+        {
+          "mal_id": 2071,
+          "type": "anime",
+          "name": "AQUA ARIS",
+          "url": "https://myanimelist.net/anime/producer/2071/AQUA_ARIS"
+        },
+        {
+          "mal_id": 2074,
+          "type": "anime",
+          "name": "Bit grooove promotion",
+          "url": "https://myanimelist.net/anime/producer/2074/Bit_grooove_promotion"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 783,
+          "type": "anime",
+          "name": "GKIDS",
+          "url": "https://myanimelist.net/anime/producer/783/GKIDS"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 1722,
+          "type": "anime",
+          "name": "Bibury Animation Studios",
+          "url": "https://myanimelist.net/anime/producer/1722/Bibury_Animation_Studios"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 60146,
+      "url": "https://myanimelist.net/anime/60146/Saikyou_no_Ousama_Nidome_no_Jinsei_wa_Nani_wo_Suru",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1712/148299.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1712/148299t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1712/148299l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1712/148299.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1712/148299t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1712/148299l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "xlRCC8SXT3Y",
+        "url": "https://www.youtube.com/watch?v=xlRCC8SXT3Y",
+        "embed_url": "https://www.youtube.com/embed/xlRCC8SXT3Y?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/xlRCC8SXT3Y/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/xlRCC8SXT3Y/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/xlRCC8SXT3Y/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/xlRCC8SXT3Y/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/xlRCC8SXT3Y/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?"
+        },
+        {
+          "type": "Synonym",
+          "title": "TBATE"
+        },
+        {
+          "type": "Japanese",
+          "title": "最強の王様、二度目の人生は何をする?"
+        },
+        {
+          "type": "English",
+          "title": "The Beginning After the End"
+        }
+      ],
+      "title": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru?",
+      "title_english": "The Beginning After the End",
+      "title_japanese": "最強の王様、二度目の人生は何をする?",
+      "title_synonyms": [
+        "TBATE"
+      ],
+      "type": "TV",
+      "source": "Other",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-04-02T00:00:00+00:00",
+        "to": "2025-06-18T00:00:00+00:00",
+        "prop": {
+          "from": {
+            "day": 2,
+            "month": 4,
+            "year": 2025
+          },
+          "to": {
+            "day": 18,
+            "month": 6,
+            "year": 2025
+          }
+        },
+        "string": "Apr 2, 2025 to Jun 18, 2025"
+      },
+      "duration": "22 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 5.2,
+      "scored_by": 22902,
+      "rank": 13130,
+      "popularity": 2083,
+      "members": 113503,
+      "favorites": 970,
+      "synopsis": "The story follows the strongest king in history, Grey. Although he possesses unparalleled power, wealth, and fame, there is no one who stands by his side…and he trusts no one. One day, Grey suddenly meets his death and is reincarnated as a powerless infant named Arthur in a world of magic. Surrounded by a loving family and companions, Arthur starts to experience joys in this new life that he never knew in his previous one. However, during a journey, his family is attacked by bandits...\n\nThus begins his second life, filled with love and adventure!\n\n(Source: Official site)",
+      "background": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? is an adaptation of the English vertical scroll comic The Beginning After the End, written by TurtleMe and illustrated by Fuyuki23. The anime aired on Fuji TV's +Ultra block.",
+      "season": "spring",
+      "year": 2025,
+      "broadcast": {
+        "day": "Wednesdays",
+        "time": "23:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Wednesdays at 23:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 166,
+          "type": "anime",
+          "name": "Movic",
+          "url": "https://myanimelist.net/anime/producer/166/Movic"
+        },
+        {
+          "mal_id": 169,
+          "type": "anime",
+          "name": "Fuji TV",
+          "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+        },
+        {
+          "mal_id": 238,
+          "type": "anime",
+          "name": "AT-X",
+          "url": "https://myanimelist.net/anime/producer/238/AT-X"
+        },
+        {
+          "mal_id": 460,
+          "type": "anime",
+          "name": "KlockWorx",
+          "url": "https://myanimelist.net/anime/producer/460/KlockWorx"
+        },
+        {
+          "mal_id": 735,
+          "type": "anime",
+          "name": "Slow Curve",
+          "url": "https://myanimelist.net/anime/producer/735/Slow_Curve"
+        },
+        {
+          "mal_id": 1412,
+          "type": "anime",
+          "name": "Kansai Telecasting",
+          "url": "https://myanimelist.net/anime/producer/1412/Kansai_Telecasting"
+        },
+        {
+          "mal_id": 1414,
+          "type": "anime",
+          "name": "bilibili",
+          "url": "https://myanimelist.net/anime/producer/1414/bilibili"
+        },
+        {
+          "mal_id": 1468,
+          "type": "anime",
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        },
+        {
+          "mal_id": 1563,
+          "type": "anime",
+          "name": "Hakuhodo",
+          "url": "https://myanimelist.net/anime/producer/1563/Hakuhodo"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1209,
+          "type": "anime",
+          "name": "Studio A-CAT",
+          "url": "https://myanimelist.net/anime/producer/1209/Studio_A-CAT"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Isekai",
+          "url": "https://myanimelist.net/anime/genre/62/Isekai"
+        },
+        {
+          "mal_id": 72,
+          "type": "anime",
+          "name": "Reincarnation",
+          "url": "https://myanimelist.net/anime/genre/72/Reincarnation"
+        }
+      ],
+      "demographics": []
+    }
+  ]
+}
