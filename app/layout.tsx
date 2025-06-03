@@ -17,7 +17,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="es" data-theme="dark">
-      <body className={`${onest.className} bg-background text-text`}>
+      <body className={`${onest.className} bg-background text-text transition-colors duration-300`}>
         {children}
       </body>
     </html>
