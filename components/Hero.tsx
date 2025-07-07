@@ -1,35 +1,28 @@
 import data from '@/data/sample-anime.json'
+import Image from 'next/image'
 import { getUniqueAnimeData } from '@/lib/utils'
 
 export default function Hero() {
   const animes = getUniqueAnimeData(data.data)
 
   return (
-    <div className="w-screen h-screen px-20 flex items-center justify-center gap-5">
-      <div className="w-full">
-        <h1 className="text-5xl font-bold text-accent mb-4">Bienvenido a AnimeZilla</h1>
-        <p className="text-lg text-text mb-8">
-          Tu catálogo de animes y mangas favoritos, donde puedes explorar, descubrir y disfrutar de todo lo relacionado con el mundo del anime.
-        </p>
-        <button className="bg-secondary px-5 py-2 rounded-tr-xl rounded-bl-xl cursor-pointer hover:scale-105 transition-transform">Explorar ahora</button>
+    <section className='w-full h-svh px-20'>
+      <div className='absolute bg-background/85 top-0 bottom-0 left-0 right-0 flex flex-col items-center justify-center text-center'>
+        <h1 className='text-5xl font-bold text-accent'>Bienvenido a AnimeZilla!</h1>
+        <p className='mt-3 text-lg font-semibold' >Tu catálogo de anime y manga favorito.</p>
       </div>
-      <div className="relative size-full flex justify-center items-center p-5">
+      <div className='absolute top-0 bottom-0 left-0 right-0 -z-10 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5 p-5 overflow-hidden'>
         {animes.map((anime, index) => (
-          <img
+          <Image
             key={anime.mal_id}
             src={anime.images.webp.large_image_url}
             alt={anime.title}
-            title={anime.title}
-            loading="lazy"
-            style={{
-              transform: `translateX(${index * 32}px) scale(${1 - index * 0.05})`,
-              zIndex: 5 - index,
-              opacity: 1 - index * 0.05
-            }}
-            className="absolute h-4/6 border-4 border-accent rounded-lg shadow-lg transition-all duration-300 hover:scale-105"
+            width={500}
+            height={750}
+            className={`object-cover rounded-lg ${index % 2 === 1 ? "md:-translate-y-60 lg:translate-0 xl:-translate-y-60" : ""}`}
           />
         ))}
       </div>
-    </div>
+    </section>
   )
 }
