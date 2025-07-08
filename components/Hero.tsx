@@ -6,7 +6,7 @@ export default function Hero() {
   const animes = getUniqueAnimeData(data.data)
 
   return (
-    <section className='relative w-svw h-svh overflow-hidden'>
+    <section className='relative w-full h-svh overflow-hidden'>
       <div className='hidden size-full place-items-start place-content-center-safe sm:grid grid-cols-3 lg:grid-cols-4 px-5 gap-5'>
         {animes.map((anime, index) => (
           <Image
