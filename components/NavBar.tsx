@@ -3,6 +3,7 @@
 import Link from "next/link"
 import { useEffect, useState } from "react"
 import MenuIcon from "./icons/MenuIcons"
+import { tradeWinds } from "@/styles/fonts";
 
 export default function NavBar() {
   const [path, setPath] = useState("");
@@ -33,7 +34,7 @@ export default function NavBar() {
     <nav className="bg-background border-secondary border-b-2 px-7 py-3 sm:px-10 md:px-14 lg:px-20 fixed w-full z-50 flex justify-between items-center">
       <div className="flex items-center gap-2">
         <img src="/logo.webp" alt="Logo" className="w-14 sm:w-16" />
-        <h1 className="text-2xl sm:text-3xl font-bold">AnimeZilla</h1>
+        <h1 className={`${tradeWinds.className} text-2xl sm:text-3xl font-bold`}>AnimeZilla</h1>
       </div>
       <ul className="hidden sm:flex gap-5 sm:gap-10 text-base sm:text-lg">
         <li><Link className={`${isHome ? "font-bold" : ""}`} href="/">Inicio</Link></li>
