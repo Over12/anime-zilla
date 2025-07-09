@@ -1,6 +1,7 @@
 import data from '@/data/sample-anime.json'
 import Image from 'next/image'
 import { getUniqueAnimeData } from '@/lib/utils'
+import { permanentMarker } from '@/styles/fonts'
 
 export default function Hero() {
   const animes = getUniqueAnimeData(data.data)
@@ -20,8 +21,8 @@ export default function Hero() {
         ))}
       </div>
       <div className='absolute inset-0 flex flex-col items-center justify-center bg-gradient-to-b from-background from-15% to-black/70 z-10 p-7 sm:p-10 md:p-14 lg:p-20'>
-        <h1 className='text-2xl sm:text-4xl font-bold text-accent'>Bienvenido a AnimeZilla!</h1>
-        <p className='text-base text-center sm:text-lg text-text'>Descubre y explora tus animes y mangas favoritos</p>
+        <h1 className={`${permanentMarker.className} text-2xl sm:text-4xl font-bold text-accent`}>Bienvenido a AnimeZilla!</h1>
+        <p className='text-center text-sm sm:text-base md:text-lg text-text/80'>Descubre y explora tus animes y mangas favoritos</p>
       </div>
     </section>
   )
