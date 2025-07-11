@@ -6,8 +6,8 @@ import { permanentMarker } from '@/styles/fonts'
 export default function Hero() {
   const animes = getUniqueAnimeData(data.data)
 
-  //* Randomize the order of the animes
   animes.sort(() => Math.random() - 0.5)
+  animes.slice(0, 10)
 
   return (
     <section className='relative w-full h-svh overflow-hidden'>
