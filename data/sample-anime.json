@@ -1,12 +1,12 @@
 {
   "pagination": {
-    "last_visible_page": 13,
+    "last_visible_page": 10,
     "has_next_page": true,
     "current_page": 1,
     "items": {
-      "count": 10,
-      "total": 130,
-      "per_page": 10
+      "count": 15,
+      "total": 139,
+      "per_page": 15
     }
   },
   "data": [
@@ -86,12 +86,12 @@
       },
       "duration": "23 min per ep",
       "rating": "PG-13 - Teens 13 or older",
-      "score": 8.54,
-      "scored_by": 4833,
-      "rank": 128,
-      "popularity": 1110,
-      "members": 239655,
-      "favorites": 2115,
+      "score": 8.49,
+      "scored_by": 13204,
+      "rank": 148,
+      "popularity": 1006,
+      "members": 265008,
+      "favorites": 2263,
       "synopsis": "Second season of Sono Bisque Doll wa Koi wo Suru.",
       "background": "",
       "season": "summer",
@@ -249,14 +249,14 @@
         },
         "string": "Jul 4, 2025 to ?"
       },
-      "duration": "Unknown",
+      "duration": "24 min per ep",
       "rating": "R - 17+ (violence & profanity)",
-      "score": 8.44,
-      "scored_by": 10062,
-      "rank": 181,
-      "popularity": 1149,
-      "members": 231745,
-      "favorites": 1190,
+      "score": 8.42,
+      "scored_by": 17695,
+      "rank": 192,
+      "popularity": 1023,
+      "members": 261208,
+      "favorites": 1291,
       "synopsis": "Second season of Dandadan.",
       "background": "Dandadan 2nd Season aired on MBS and TBS' Super Animeism Turbo block.",
       "season": "summer",
@@ -407,14 +407,14 @@
         },
         "string": "Jul 4, 2025 to ?"
       },
-      "duration": "Unknown",
+      "duration": "24 min per ep",
       "rating": "R - 17+ (violence & profanity)",
-      "score": 8.44,
-      "scored_by": 10062,
-      "rank": 181,
-      "popularity": 1149,
-      "members": 231745,
-      "favorites": 1190,
+      "score": 8.42,
+      "scored_by": 17695,
+      "rank": 192,
+      "popularity": 1023,
+      "members": 261208,
+      "favorites": 1291,
       "synopsis": "Second season of Dandadan.",
       "background": "Dandadan 2nd Season aired on MBS and TBS' Super Animeism Turbo block.",
       "season": "summer",
@@ -513,15 +513,15 @@
         }
       },
       "trailer": {
-        "youtube_id": "86pUz-brRJQ",
-        "url": "https://www.youtube.com/watch?v=86pUz-brRJQ",
-        "embed_url": "https://www.youtube.com/embed/86pUz-brRJQ?enablejsapi=1&wmode=opaque&autoplay=1",
+        "youtube_id": "1ry0cE8Gr0k",
+        "url": "https://www.youtube.com/watch?v=1ry0cE8Gr0k",
+        "embed_url": "https://www.youtube.com/embed/1ry0cE8Gr0k?enablejsapi=1&wmode=opaque&autoplay=1",
         "images": {
-          "image_url": "https://img.youtube.com/vi/86pUz-brRJQ/default.jpg",
-          "small_image_url": "https://img.youtube.com/vi/86pUz-brRJQ/sddefault.jpg",
-          "medium_image_url": "https://img.youtube.com/vi/86pUz-brRJQ/mqdefault.jpg",
-          "large_image_url": "https://img.youtube.com/vi/86pUz-brRJQ/hqdefault.jpg",
-          "maximum_image_url": "https://img.youtube.com/vi/86pUz-brRJQ/maxresdefault.jpg"
+          "image_url": "https://img.youtube.com/vi/1ry0cE8Gr0k/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/1ry0cE8Gr0k/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/1ry0cE8Gr0k/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/1ry0cE8Gr0k/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/1ry0cE8Gr0k/maxresdefault.jpg"
         }
       },
       "approved": true,
@@ -591,9 +591,9 @@
       "score": null,
       "scored_by": null,
       "rank": null,
-      "popularity": 1605,
-      "members": 159821,
-      "favorites": 614,
+      "popularity": 1529,
+      "members": 170473,
+      "favorites": 667,
       "synopsis": "Second season of Kaijuu 8-gou.",
       "background": "",
       "season": "summer",
@@ -744,9 +744,9 @@
       "score": null,
       "scored_by": null,
       "rank": null,
-      "popularity": 1636,
-      "members": 155107,
-      "favorites": 1313,
+      "popularity": 1625,
+      "members": 156978,
+      "favorites": 1334,
       "synopsis": "Anime movie trilogy adaptation of the Infinity Castle Arc.",
       "background": "",
       "season": null,
@@ -795,196 +795,6 @@
           "type": "anime",
           "name": "Historical",
           "url": "https://myanimelist.net/anime/genre/13/Historical"
-        }
-      ],
-      "demographics": [
-        {
-          "mal_id": 27,
-          "type": "anime",
-          "name": "Shounen",
-          "url": "https://myanimelist.net/anime/genre/27/Shounen"
-        }
-      ]
-    },
-    {
-      "mal_id": 58390,
-      "url": "https://myanimelist.net/anime/58390/Yofukashi_no_Uta_Season_2",
-      "images": {
-        "jpg": {
-          "image_url": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg",
-          "small_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453t.jpg",
-          "large_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg"
-        },
-        "webp": {
-          "image_url": "https://cdn.myanimelist.net/images/anime/1509/148453.webp",
-          "small_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453t.webp",
-          "large_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453l.webp"
-        }
-      },
-      "trailer": {
-        "youtube_id": "m3yAIWZQ6gM",
-        "url": "https://www.youtube.com/watch?v=m3yAIWZQ6gM",
-        "embed_url": "https://www.youtube.com/embed/m3yAIWZQ6gM?enablejsapi=1&wmode=opaque&autoplay=1",
-        "images": {
-          "image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/default.jpg",
-          "small_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/sddefault.jpg",
-          "medium_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/mqdefault.jpg",
-          "large_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/hqdefault.jpg",
-          "maximum_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/maxresdefault.jpg"
-        }
-      },
-      "approved": true,
-      "titles": [
-        {
-          "type": "Default",
-          "title": "Yofukashi no Uta Season 2"
-        },
-        {
-          "type": "Japanese",
-          "title": "よふかしのうた Season2"
-        },
-        {
-          "type": "English",
-          "title": "Call of the Night Season 2"
-        }
-      ],
-      "title": "Yofukashi no Uta Season 2",
-      "title_english": "Call of the Night Season 2",
-      "title_japanese": "よふかしのうた Season2",
-      "title_synonyms": [],
-      "type": "TV",
-      "source": "Manga",
-      "episodes": 12,
-      "status": "Currently Airing",
-      "airing": true,
-      "aired": {
-        "from": "2025-07-04T00:00:00+00:00",
-        "to": null,
-        "prop": {
-          "from": {
-            "day": 4,
-            "month": 7,
-            "year": 2025
-          },
-          "to": {
-            "day": null,
-            "month": null,
-            "year": null
-          }
-        },
-        "string": "Jul 4, 2025 to ?"
-      },
-      "duration": "22 min per ep",
-      "rating": "PG-13 - Teens 13 or older",
-      "score": 8.23,
-      "scored_by": 4101,
-      "rank": 367,
-      "popularity": 1972,
-      "members": 122554,
-      "favorites": 552,
-      "synopsis": "Second season of Yofukashi no Uta.",
-      "background": "Yofukashi no Uta Season 2 aired on Fuji TV's noitaminA block.",
-      "season": "summer",
-      "year": 2025,
-      "broadcast": {
-        "day": "Fridays",
-        "time": "23:30",
-        "timezone": "Asia/Tokyo",
-        "string": "Fridays at 23:30 (JST)"
-      },
-      "producers": [
-        {
-          "mal_id": 17,
-          "type": "anime",
-          "name": "Aniplex",
-          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
-        },
-        {
-          "mal_id": 53,
-          "type": "anime",
-          "name": "Dentsu",
-          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
-        },
-        {
-          "mal_id": 62,
-          "type": "anime",
-          "name": "Shogakukan-Shueisha Productions",
-          "url": "https://myanimelist.net/anime/producer/62/Shogakukan-Shueisha_Productions"
-        },
-        {
-          "mal_id": 140,
-          "type": "anime",
-          "name": "Animax",
-          "url": "https://myanimelist.net/anime/producer/140/Animax"
-        },
-        {
-          "mal_id": 169,
-          "type": "anime",
-          "name": "Fuji TV",
-          "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
-        },
-        {
-          "mal_id": 539,
-          "type": "anime",
-          "name": "Ultra Super Pictures",
-          "url": "https://myanimelist.net/anime/producer/539/Ultra_Super_Pictures"
-        },
-        {
-          "mal_id": 1430,
-          "type": "anime",
-          "name": "Shogakukan",
-          "url": "https://myanimelist.net/anime/producer/1430/Shogakukan"
-        },
-        {
-          "mal_id": 1556,
-          "type": "anime",
-          "name": "Fuji Creative",
-          "url": "https://myanimelist.net/anime/producer/1556/Fuji_Creative"
-        },
-        {
-          "mal_id": 1734,
-          "type": "anime",
-          "name": "Tohan Corporation",
-          "url": "https://myanimelist.net/anime/producer/1734/Tohan_Corporation"
-        }
-      ],
-      "licensors": [
-        {
-          "mal_id": 376,
-          "type": "anime",
-          "name": "Sentai Filmworks",
-          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
-        }
-      ],
-      "studios": [
-        {
-          "mal_id": 839,
-          "type": "anime",
-          "name": "LIDENFILMS",
-          "url": "https://myanimelist.net/anime/producer/839/LIDENFILMS"
-        }
-      ],
-      "genres": [
-        {
-          "mal_id": 22,
-          "type": "anime",
-          "name": "Romance",
-          "url": "https://myanimelist.net/anime/genre/22/Romance"
-        },
-        {
-          "mal_id": 37,
-          "type": "anime",
-          "name": "Supernatural",
-          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
-        }
-      ],
-      "explicit_genres": [],
-      "themes": [
-        {
-          "mal_id": 32,
-          "type": "anime",
-          "name": "Vampire",
-          "url": "https://myanimelist.net/anime/genre/32/Vampire"
         }
       ],
       "demographics": [
@@ -1072,12 +882,12 @@
       },
       "duration": "24 min per ep",
       "rating": "PG-13 - Teens 13 or older",
-      "score": 8.9,
-      "scored_by": 2121,
-      "rank": 23,
-      "popularity": 2067,
-      "members": 116046,
-      "favorites": 1359,
+      "score": 8.82,
+      "scored_by": 12714,
+      "rank": 32,
+      "popularity": 1651,
+      "members": 154085,
+      "favorites": 1823,
       "synopsis": "Despite being adjacent to one another, Chidori Public High School and the all-girls Kikyo Private Academy seem to exist in two different worlds. While the latter boasts an immaculate reputation and favors students from wealthy backgrounds, the former is a nest for dim-witted delinquents. Everyone at Kikyo harbors a deep hatred for their Chidori neighbors.\n\nSixteen-year-old Rintarou Tsumugi is a student at Chidori whose intimidating face leads people to avoid him. Rintarou pays no mind to this, as he is content with his group of friends. However, there is something he has not told them yet: sometimes, he helps out at his family's cake shop.\n\nOne day at work, Rintarou sees a customer at a table, but she runs off before he can talk to her. The next day, he receives an apology from the girl, Kaoruko Waguri, who explains that she did not run away because of his appearance and that she believes Rintarou is a kind-hearted person. Although he is not used to Kaoruko's bright personality, Rintarou looks forward to forming a friendship with her. There is just one obstacle that stands in his way: Kaoruko is a Kikyo student!\n\n[Written by MAL Rewrite]",
       "background": "",
       "season": "summer",
@@ -1236,12 +1046,12 @@
       },
       "duration": "23 min per ep",
       "rating": "PG-13 - Teens 13 or older",
-      "score": 8.1,
-      "scored_by": 2707,
-      "rank": 536,
-      "popularity": 2257,
-      "members": 101879,
-      "favorites": 504,
+      "score": 8.08,
+      "scored_by": 10656,
+      "rank": 555,
+      "popularity": 1804,
+      "members": 137015,
+      "favorites": 676,
       "synopsis": "Living in the slums of a wealthy town, Rudo and his foster father Regto try to coexist with the rest of the town's residents, but Rudo despises the wastefulness of the upper class. Ignoring the warnings from those around him, Rudo regularly rummages through the town's garbage in search of anything useful or valuable to save from the \"Abyss\"—a massive hole where anything considered trash is dumped, including people. Rudo's biological father was one such person, having been thrown into the Abyss after he was accused of murder.\n\nOne day, after running into a mysterious figure on the way home, Rudo returns to find Regto's dying body on the floor. He is immediately found at the scene by the authorities and is charged with murder. No one believes his claims of innocence, and he is thrown into the Abyss. Instead of dying, however, he finds himself in a strange, foul-smelling place surrounded by monsters made out of trash.\n\nWhen Rudo is attacked by said monsters, he is saved by a man named Enjin, who reveals himself to be a \"Cleaner\"—someone who uses special weapons called Vital Instruments to combat these creatures. In order to get his revenge on the one who killed Regto, Rudo reluctantly becomes a Cleaner to fight his way back up and out of the Abyss.\n\n[Written by MAL Rewrite]",
       "background": "Gachiakuta aired on CBC and TBS' Agaru Anime block.",
       "season": "summer",
@@ -1254,10 +1064,34 @@
       },
       "producers": [
         {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Bones",
+          "url": "https://myanimelist.net/anime/producer/4/Bones"
+        },
+        {
+          "mal_id": 53,
+          "type": "anime",
+          "name": "Dentsu",
+          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
+        },
+        {
           "mal_id": 1284,
           "type": "anime",
           "name": "Avex Pictures",
           "url": "https://myanimelist.net/anime/producer/1284/Avex_Pictures"
+        },
+        {
+          "mal_id": 1542,
+          "type": "anime",
+          "name": "DMM.com",
+          "url": "https://myanimelist.net/anime/producer/1542/DMMcom"
+        },
+        {
+          "mal_id": 1856,
+          "type": "anime",
+          "name": "dugout",
+          "url": "https://myanimelist.net/anime/producer/1856/dugout"
         },
         {
           "mal_id": 3155,
@@ -1291,6 +1125,208 @@
       ],
       "explicit_genres": [],
       "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 58390,
+      "url": "https://myanimelist.net/anime/58390/Yofukashi_no_Uta_Season_2",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1509/148453.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1509/148453.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1509/148453l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "m3yAIWZQ6gM",
+        "url": "https://www.youtube.com/watch?v=m3yAIWZQ6gM",
+        "embed_url": "https://www.youtube.com/embed/m3yAIWZQ6gM?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/m3yAIWZQ6gM/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Yofukashi no Uta Season 2"
+        },
+        {
+          "type": "Japanese",
+          "title": "よふかしのうた Season2"
+        },
+        {
+          "type": "English",
+          "title": "Call of the Night Season 2"
+        }
+      ],
+      "title": "Yofukashi no Uta Season 2",
+      "title_english": "Call of the Night Season 2",
+      "title_japanese": "よふかしのうた Season2",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-07-04T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 4,
+            "month": 7,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 4, 2025 to ?"
+      },
+      "duration": "22 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.19,
+      "scored_by": 7142,
+      "rank": 428,
+      "popularity": 1833,
+      "members": 135203,
+      "favorites": 587,
+      "synopsis": "Second season of Yofukashi no Uta.",
+      "background": "Yofukashi no Uta Season 2 aired on Fuji TV's noitaminA block.",
+      "season": "summer",
+      "year": 2025,
+      "broadcast": {
+        "day": "Fridays",
+        "time": "23:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Fridays at 23:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 17,
+          "type": "anime",
+          "name": "Aniplex",
+          "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 53,
+          "type": "anime",
+          "name": "Dentsu",
+          "url": "https://myanimelist.net/anime/producer/53/Dentsu"
+        },
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Shogakukan-Shueisha Productions",
+          "url": "https://myanimelist.net/anime/producer/62/Shogakukan-Shueisha_Productions"
+        },
+        {
+          "mal_id": 140,
+          "type": "anime",
+          "name": "Animax",
+          "url": "https://myanimelist.net/anime/producer/140/Animax"
+        },
+        {
+          "mal_id": 169,
+          "type": "anime",
+          "name": "Fuji TV",
+          "url": "https://myanimelist.net/anime/producer/169/Fuji_TV"
+        },
+        {
+          "mal_id": 539,
+          "type": "anime",
+          "name": "Ultra Super Pictures",
+          "url": "https://myanimelist.net/anime/producer/539/Ultra_Super_Pictures"
+        },
+        {
+          "mal_id": 577,
+          "type": "anime",
+          "name": "Tohokushinsha Film Corporation",
+          "url": "https://myanimelist.net/anime/producer/577/Tohokushinsha_Film_Corporation"
+        },
+        {
+          "mal_id": 769,
+          "type": "anime",
+          "name": "Fujipacific Music",
+          "url": "https://myanimelist.net/anime/producer/769/Fujipacific_Music"
+        },
+        {
+          "mal_id": 1430,
+          "type": "anime",
+          "name": "Shogakukan",
+          "url": "https://myanimelist.net/anime/producer/1430/Shogakukan"
+        },
+        {
+          "mal_id": 1556,
+          "type": "anime",
+          "name": "Fuji Creative",
+          "url": "https://myanimelist.net/anime/producer/1556/Fuji_Creative"
+        },
+        {
+          "mal_id": 1734,
+          "type": "anime",
+          "name": "Tohan Corporation",
+          "url": "https://myanimelist.net/anime/producer/1734/Tohan_Corporation"
+        }
+      ],
+      "licensors": [
+        {
+          "mal_id": 376,
+          "type": "anime",
+          "name": "Sentai Filmworks",
+          "url": "https://myanimelist.net/anime/producer/376/Sentai_Filmworks"
+        }
+      ],
+      "studios": [
+        {
+          "mal_id": 839,
+          "type": "anime",
+          "name": "LIDENFILMS",
+          "url": "https://myanimelist.net/anime/producer/839/LIDENFILMS"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 32,
+          "type": "anime",
+          "name": "Vampire",
+          "url": "https://myanimelist.net/anime/genre/32/Vampire"
+        }
+      ],
       "demographics": [
         {
           "mal_id": 27,
@@ -1377,11 +1413,11 @@
       "duration": "24 min per ep",
       "rating": "PG-13 - Teens 13 or older",
       "score": 8.5,
-      "scored_by": 1700,
-      "rank": 145,
-      "popularity": 2248,
-      "members": 101602,
-      "favorites": 483,
+      "scored_by": 5968,
+      "rank": 144,
+      "popularity": 2037,
+      "members": 118032,
+      "favorites": 558,
       "synopsis": "Sequel to Seishun Buta Yarou wa Randoseru Girl no Yume wo Minai.",
       "background": "",
       "season": "summer",
@@ -1398,6 +1434,12 @@
           "type": "anime",
           "name": "Aniplex",
           "url": "https://myanimelist.net/anime/producer/17/Aniplex"
+        },
+        {
+          "mal_id": 213,
+          "type": "anime",
+          "name": "Half H.P Studio",
+          "url": "https://myanimelist.net/anime/producer/213/Half_HP_Studio"
         },
         {
           "mal_id": 1211,
@@ -1422,6 +1464,12 @@
           "type": "anime",
           "name": "ABC Animation",
           "url": "https://myanimelist.net/anime/producer/1500/ABC_Animation"
+        },
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
         }
       ],
       "licensors": [],
@@ -1460,6 +1508,344 @@
           "type": "anime",
           "name": "School",
           "url": "https://myanimelist.net/anime/genre/23/School"
+        }
+      ],
+      "demographics": []
+    },
+    {
+      "mal_id": 58913,
+      "url": "https://myanimelist.net/anime/58913/Hikaru_ga_Shinda_Natsu",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1104/148614.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1104/148614t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1104/148614l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1104/148614.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1104/148614t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1104/148614l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "sFaO07LwAVg",
+        "url": "https://www.youtube.com/watch?v=sFaO07LwAVg",
+        "embed_url": "https://www.youtube.com/embed/sFaO07LwAVg?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/sFaO07LwAVg/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/sFaO07LwAVg/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/sFaO07LwAVg/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/sFaO07LwAVg/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/sFaO07LwAVg/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Hikaru ga Shinda Natsu"
+        },
+        {
+          "type": "Synonym",
+          "title": "Hikanatsu"
+        },
+        {
+          "type": "Japanese",
+          "title": "光が死んだ夏"
+        },
+        {
+          "type": "English",
+          "title": "The Summer Hikaru Died"
+        }
+      ],
+      "title": "Hikaru ga Shinda Natsu",
+      "title_english": "The Summer Hikaru Died",
+      "title_japanese": "光が死んだ夏",
+      "title_synonyms": [
+        "Hikanatsu"
+      ],
+      "type": "TV",
+      "source": "Web manga",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-07-06T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 6,
+            "month": 7,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 6, 2025 to ?"
+      },
+      "duration": "22 min per ep",
+      "rating": "R - 17+ (violence & profanity)",
+      "score": 8.16,
+      "scored_by": 7794,
+      "rank": 469,
+      "popularity": 2124,
+      "members": 111299,
+      "favorites": 448,
+      "synopsis": "Best friends Yoshiki and Hikaru have been stuck together like glue for most of their lives. Living in a small village and being the only children their age, the two boys find solace in each other's company. Their friendship seems picturesque at first glance, but Yoshiki has noticed a shift in Hikaru's demeanor ever since one fateful summer.\n\nThe \"Hikaru\" that sits beside him now is nothing like his friend. Despite his physical appearance and memories remaining exactly the same, Yoshiki knows something is amiss and that the Hikaru he once knew is gone. When he brings this up, Hikaru partially transforms into an otherworldly being, threatening to kill Yoshiki if he cannot accept it—while also professing its love for him.\n\nWracked with grief and unable to let go of his best friend, Yoshiki struggles to move on with his life as he finds himself getting closer to the new Hikaru. At the same time, strange occurrences begin to plague their village, bringing unsettling chaos.\n\n[Written by MAL Rewrite]",
+      "background": "",
+      "season": "summer",
+      "year": 2025,
+      "broadcast": {
+        "day": "Sundays",
+        "time": "00:55",
+        "timezone": "Asia/Tokyo",
+        "string": "Sundays at 00:55 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
+        },
+        {
+          "mal_id": 1856,
+          "type": "anime",
+          "name": "dugout",
+          "url": "https://myanimelist.net/anime/producer/1856/dugout"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1893,
+          "type": "anime",
+          "name": "CygamesPictures",
+          "url": "https://myanimelist.net/anime/producer/1893/CygamesPictures"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 14,
+          "type": "anime",
+          "name": "Horror",
+          "url": "https://myanimelist.net/anime/genre/14/Horror"
+        },
+        {
+          "mal_id": 7,
+          "type": "anime",
+          "name": "Mystery",
+          "url": "https://myanimelist.net/anime/genre/7/Mystery"
+        },
+        {
+          "mal_id": 37,
+          "type": "anime",
+          "name": "Supernatural",
+          "url": "https://myanimelist.net/anime/genre/37/Supernatural"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": []
+    },
+    {
+      "mal_id": 57907,
+      "url": "https://myanimelist.net/anime/57907/Tate_no_Yuusha_no_Nariagari_Season_4",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1638/150592.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1638/150592t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1638/150592l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1638/150592.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1638/150592t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1638/150592l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "XNzt2ER1o4k",
+        "url": "https://www.youtube.com/watch?v=XNzt2ER1o4k",
+        "embed_url": "https://www.youtube.com/embed/XNzt2ER1o4k?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/XNzt2ER1o4k/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/XNzt2ER1o4k/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/XNzt2ER1o4k/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/XNzt2ER1o4k/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/XNzt2ER1o4k/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Tate no Yuusha no Nariagari Season 4"
+        },
+        {
+          "type": "Synonym",
+          "title": "Tate no Yuusha no Nariagari 4th Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "The Rising of the Shield Hero 4th Season"
+        },
+        {
+          "type": "Japanese",
+          "title": "盾の勇者の成り上がり Season 4"
+        },
+        {
+          "type": "English",
+          "title": "The Rising of the Shield Hero Season 4"
+        }
+      ],
+      "title": "Tate no Yuusha no Nariagari Season 4",
+      "title_english": "The Rising of the Shield Hero Season 4",
+      "title_japanese": "盾の勇者の成り上がり Season 4",
+      "title_synonyms": [
+        "Tate no Yuusha no Nariagari 4th Season",
+        "The Rising of the Shield Hero 4th Season"
+      ],
+      "type": "TV",
+      "source": "Light novel",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-07-09T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 9,
+            "month": 7,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 9, 2025 to ?"
+      },
+      "duration": "23 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 7.5,
+      "scored_by": 3149,
+      "rank": 2067,
+      "popularity": 2195,
+      "members": 105649,
+      "favorites": 377,
+      "synopsis": "Fourth season of Tate no Yuusha no Nariagari.",
+      "background": "",
+      "season": "summer",
+      "year": 2025,
+      "broadcast": {
+        "day": "Wednesdays",
+        "time": "21:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Wednesdays at 21:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 61,
+          "type": "anime",
+          "name": "Frontier Works",
+          "url": "https://myanimelist.net/anime/producer/61/Frontier_Works"
+        },
+        {
+          "mal_id": 238,
+          "type": "anime",
+          "name": "AT-X",
+          "url": "https://myanimelist.net/anime/producer/238/AT-X"
+        },
+        {
+          "mal_id": 323,
+          "type": "anime",
+          "name": "Nippon Columbia",
+          "url": "https://myanimelist.net/anime/producer/323/Nippon_Columbia"
+        },
+        {
+          "mal_id": 689,
+          "type": "anime",
+          "name": "NTT Docomo",
+          "url": "https://myanimelist.net/anime/producer/689/NTT_Docomo"
+        },
+        {
+          "mal_id": 1255,
+          "type": "anime",
+          "name": "Glovision",
+          "url": "https://myanimelist.net/anime/producer/1255/Glovision"
+        },
+        {
+          "mal_id": 1261,
+          "type": "anime",
+          "name": "Good Smile Company",
+          "url": "https://myanimelist.net/anime/producer/1261/Good_Smile_Company"
+        },
+        {
+          "mal_id": 1345,
+          "type": "anime",
+          "name": "Sammy",
+          "url": "https://myanimelist.net/anime/producer/1345/Sammy"
+        },
+        {
+          "mal_id": 1468,
+          "type": "anime",
+          "name": "Crunchyroll",
+          "url": "https://myanimelist.net/anime/producer/1468/Crunchyroll"
+        },
+        {
+          "mal_id": 1696,
+          "type": "anime",
+          "name": "Kadokawa",
+          "url": "https://myanimelist.net/anime/producer/1696/Kadokawa"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 290,
+          "type": "anime",
+          "name": "Kinema Citrus",
+          "url": "https://myanimelist.net/anime/producer/290/Kinema_Citrus"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 1,
+          "type": "anime",
+          "name": "Action",
+          "url": "https://myanimelist.net/anime/genre/1/Action"
+        },
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 8,
+          "type": "anime",
+          "name": "Drama",
+          "url": "https://myanimelist.net/anime/genre/8/Drama"
+        },
+        {
+          "mal_id": 10,
+          "type": "anime",
+          "name": "Fantasy",
+          "url": "https://myanimelist.net/anime/genre/10/Fantasy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 62,
+          "type": "anime",
+          "name": "Isekai",
+          "url": "https://myanimelist.net/anime/genre/62/Isekai"
         }
       ],
       "demographics": []
@@ -1537,9 +1923,9 @@
       "score": null,
       "scored_by": null,
       "rank": null,
-      "popularity": 2328,
-      "members": 96908,
-      "favorites": 209,
+      "popularity": 2240,
+      "members": 103195,
+      "favorites": 224,
       "synopsis": "Second part of Sakamoto Days.",
       "background": "",
       "season": "summer",
@@ -1587,6 +1973,482 @@
           "type": "anime",
           "name": "Organized Crime",
           "url": "https://myanimelist.net/anime/genre/68/Organized_Crime"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 59986,
+      "url": "https://myanimelist.net/anime/59986/Grand_Blue_Season_2",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1108/150583.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1108/150583t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1108/150583l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1108/150583.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1108/150583t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1108/150583l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "rQ119Lo7aF8",
+        "url": "https://www.youtube.com/watch?v=rQ119Lo7aF8",
+        "embed_url": "https://www.youtube.com/embed/rQ119Lo7aF8?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/rQ119Lo7aF8/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/rQ119Lo7aF8/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/rQ119Lo7aF8/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/rQ119Lo7aF8/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/rQ119Lo7aF8/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Grand Blue Season 2"
+        },
+        {
+          "type": "Japanese",
+          "title": "ぐらんぶる Season 2"
+        },
+        {
+          "type": "English",
+          "title": "Grand Blue Dreaming Season 2"
+        }
+      ],
+      "title": "Grand Blue Season 2",
+      "title_english": "Grand Blue Dreaming Season 2",
+      "title_japanese": "ぐらんぶる Season 2",
+      "title_synonyms": [],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-07-08T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 8,
+            "month": 7,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 8, 2025 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.8,
+      "scored_by": 6247,
+      "rank": 36,
+      "popularity": 2261,
+      "members": 101089,
+      "favorites": 508,
+      "synopsis": "Second season of Grand Blue.",
+      "background": "",
+      "season": "summer",
+      "year": 2025,
+      "broadcast": {
+        "day": "Tuesdays",
+        "time": "00:30",
+        "timezone": "Asia/Tokyo",
+        "string": "Tuesdays at 00:30 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 143,
+          "type": "anime",
+          "name": "Mainichi Broadcasting System",
+          "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+        },
+        {
+          "mal_id": 159,
+          "type": "anime",
+          "name": "Kodansha",
+          "url": "https://myanimelist.net/anime/producer/159/Kodansha"
+        },
+        {
+          "mal_id": 1113,
+          "type": "anime",
+          "name": "NBCUniversal Entertainment Japan",
+          "url": "https://myanimelist.net/anime/producer/1113/NBCUniversal_Entertainment_Japan"
+        },
+        {
+          "mal_id": 1284,
+          "type": "anime",
+          "name": "Avex Pictures",
+          "url": "https://myanimelist.net/anime/producer/1284/Avex_Pictures"
+        },
+        {
+          "mal_id": 1501,
+          "type": "anime",
+          "name": "JR East Marketing & Communications",
+          "url": "https://myanimelist.net/anime/producer/1501/JR_East_Marketing___Communications"
+        },
+        {
+          "mal_id": 2671,
+          "type": "anime",
+          "name": "Saber Links",
+          "url": "https://myanimelist.net/anime/producer/2671/Saber_Links"
+        },
+        {
+          "mal_id": 2840,
+          "type": "anime",
+          "name": "qooop",
+          "url": "https://myanimelist.net/anime/producer/2840/qooop"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 1379,
+          "type": "anime",
+          "name": "Zero-G",
+          "url": "https://myanimelist.net/anime/producer/1379/Zero-G"
+        },
+        {
+          "mal_id": 2527,
+          "type": "anime",
+          "name": "Liber",
+          "url": "https://myanimelist.net/anime/producer/2527/Liber"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        },
+        {
+          "mal_id": 57,
+          "type": "anime",
+          "name": "Gag Humor",
+          "url": "https://myanimelist.net/anime/genre/57/Gag_Humor"
+        }
+      ],
+      "demographics": [
+        {
+          "mal_id": 42,
+          "type": "anime",
+          "name": "Seinen",
+          "url": "https://myanimelist.net/anime/genre/42/Seinen"
+        }
+      ]
+    },
+    {
+      "mal_id": 61322,
+      "url": "https://myanimelist.net/anime/61322/Dr_Stone__Science_Future_Part_2",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1335/148849.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1335/148849t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1335/148849l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1335/148849.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1335/148849t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1335/148849l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "qbthdPHU8FQ",
+        "url": "https://www.youtube.com/watch?v=qbthdPHU8FQ",
+        "embed_url": "https://www.youtube.com/embed/qbthdPHU8FQ?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/qbthdPHU8FQ/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/qbthdPHU8FQ/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/qbthdPHU8FQ/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/qbthdPHU8FQ/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/qbthdPHU8FQ/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Dr. Stone: Science Future Part 2"
+        },
+        {
+          "type": "Synonym",
+          "title": "Dr. Stone 4th Season Part 2"
+        },
+        {
+          "type": "Japanese",
+          "title": "Dr.STONE SCIENCE FUTURE 第2クール"
+        },
+        {
+          "type": "English",
+          "title": "Dr. Stone: Science Future Part 2"
+        }
+      ],
+      "title": "Dr. Stone: Science Future Part 2",
+      "title_english": "Dr. Stone: Science Future Part 2",
+      "title_japanese": "Dr.STONE SCIENCE FUTURE 第2クール",
+      "title_synonyms": [
+        "Dr. Stone 4th Season Part 2"
+      ],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": null,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-07-10T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 10,
+            "month": 7,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 10, 2025 to ?"
+      },
+      "duration": "24 min",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 8.18,
+      "scored_by": 1834,
+      "rank": 434,
+      "popularity": 2397,
+      "members": 92215,
+      "favorites": 170,
+      "synopsis": "Part two of Dr. Stone: Science Future.",
+      "background": "",
+      "season": "summer",
+      "year": 2025,
+      "broadcast": {
+        "day": "Thursdays",
+        "time": "22:00",
+        "timezone": "Asia/Tokyo",
+        "string": "Thursdays at 22:00 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 1143,
+          "type": "anime",
+          "name": "TOHO animation",
+          "url": "https://myanimelist.net/anime/producer/1143/TOHO_animation"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 73,
+          "type": "anime",
+          "name": "TMS Entertainment",
+          "url": "https://myanimelist.net/anime/producer/73/TMS_Entertainment"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 2,
+          "type": "anime",
+          "name": "Adventure",
+          "url": "https://myanimelist.net/anime/genre/2/Adventure"
+        },
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 24,
+          "type": "anime",
+          "name": "Sci-Fi",
+          "url": "https://myanimelist.net/anime/genre/24/Sci-Fi"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [],
+      "demographics": [
+        {
+          "mal_id": 27,
+          "type": "anime",
+          "name": "Shounen",
+          "url": "https://myanimelist.net/anime/genre/27/Shounen"
+        }
+      ]
+    },
+    {
+      "mal_id": 59277,
+      "url": "https://myanimelist.net/anime/59277/Kanojo_Okarishimasu_4th_Season",
+      "images": {
+        "jpg": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1071/150808.jpg",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1071/150808t.jpg",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1071/150808l.jpg"
+        },
+        "webp": {
+          "image_url": "https://cdn.myanimelist.net/images/anime/1071/150808.webp",
+          "small_image_url": "https://cdn.myanimelist.net/images/anime/1071/150808t.webp",
+          "large_image_url": "https://cdn.myanimelist.net/images/anime/1071/150808l.webp"
+        }
+      },
+      "trailer": {
+        "youtube_id": "VC226h0ivYg",
+        "url": "https://www.youtube.com/watch?v=VC226h0ivYg",
+        "embed_url": "https://www.youtube.com/embed/VC226h0ivYg?enablejsapi=1&wmode=opaque&autoplay=1",
+        "images": {
+          "image_url": "https://img.youtube.com/vi/VC226h0ivYg/default.jpg",
+          "small_image_url": "https://img.youtube.com/vi/VC226h0ivYg/sddefault.jpg",
+          "medium_image_url": "https://img.youtube.com/vi/VC226h0ivYg/mqdefault.jpg",
+          "large_image_url": "https://img.youtube.com/vi/VC226h0ivYg/hqdefault.jpg",
+          "maximum_image_url": "https://img.youtube.com/vi/VC226h0ivYg/maxresdefault.jpg"
+        }
+      },
+      "approved": true,
+      "titles": [
+        {
+          "type": "Default",
+          "title": "Kanojo, Okarishimasu 4th Season"
+        },
+        {
+          "type": "Synonym",
+          "title": "Kanokari"
+        },
+        {
+          "type": "Japanese",
+          "title": "彼女、お借りします 第4期"
+        },
+        {
+          "type": "English",
+          "title": "Rent-a-Girlfriend Season 4"
+        }
+      ],
+      "title": "Kanojo, Okarishimasu 4th Season",
+      "title_english": "Rent-a-Girlfriend Season 4",
+      "title_japanese": "彼女、お借りします 第4期",
+      "title_synonyms": [
+        "Kanokari"
+      ],
+      "type": "TV",
+      "source": "Manga",
+      "episodes": 12,
+      "status": "Currently Airing",
+      "airing": true,
+      "aired": {
+        "from": "2025-07-05T00:00:00+00:00",
+        "to": null,
+        "prop": {
+          "from": {
+            "day": 5,
+            "month": 7,
+            "year": 2025
+          },
+          "to": {
+            "day": null,
+            "month": null,
+            "year": null
+          }
+        },
+        "string": "Jul 5, 2025 to ?"
+      },
+      "duration": "24 min per ep",
+      "rating": "PG-13 - Teens 13 or older",
+      "score": 6.28,
+      "scored_by": 3851,
+      "rank": 8569,
+      "popularity": 3101,
+      "members": 59815,
+      "favorites": 272,
+      "synopsis": "Fourth season of Kanojo, Okarishimasu.",
+      "background": "Each episode was streamed four days in advance of the TV broadcast from July 1, 2025 on DMM TV, d-anime Store, and Crunchyroll. Regular broadcasting began July 5, 2025.",
+      "season": "summer",
+      "year": 2025,
+      "broadcast": {
+        "day": "Saturdays",
+        "time": "02:23",
+        "timezone": "Asia/Tokyo",
+        "string": "Saturdays at 02:23 (JST)"
+      },
+      "producers": [
+        {
+          "mal_id": 143,
+          "type": "anime",
+          "name": "Mainichi Broadcasting System",
+          "url": "https://myanimelist.net/anime/producer/143/Mainichi_Broadcasting_System"
+        },
+        {
+          "mal_id": 159,
+          "type": "anime",
+          "name": "Kodansha",
+          "url": "https://myanimelist.net/anime/producer/159/Kodansha"
+        },
+        {
+          "mal_id": 1542,
+          "type": "anime",
+          "name": "DMM.com",
+          "url": "https://myanimelist.net/anime/producer/1542/DMMcom"
+        }
+      ],
+      "licensors": [],
+      "studios": [
+        {
+          "mal_id": 73,
+          "type": "anime",
+          "name": "TMS Entertainment",
+          "url": "https://myanimelist.net/anime/producer/73/TMS_Entertainment"
+        }
+      ],
+      "genres": [
+        {
+          "mal_id": 4,
+          "type": "anime",
+          "name": "Comedy",
+          "url": "https://myanimelist.net/anime/genre/4/Comedy"
+        },
+        {
+          "mal_id": 22,
+          "type": "anime",
+          "name": "Romance",
+          "url": "https://myanimelist.net/anime/genre/22/Romance"
+        }
+      ],
+      "explicit_genres": [],
+      "themes": [
+        {
+          "mal_id": 50,
+          "type": "anime",
+          "name": "Adult Cast",
+          "url": "https://myanimelist.net/anime/genre/50/Adult_Cast"
+        },
+        {
+          "mal_id": 35,
+          "type": "anime",
+          "name": "Harem",
+          "url": "https://myanimelist.net/anime/genre/35/Harem"
         }
       ],
       "demographics": [
