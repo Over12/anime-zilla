@@ -5,9 +5,10 @@ import Link from "next/link";
 import { ArrowLeftIcon, ArrowRightIcon } from "./icons/ArrowIcons";
 import { permanentMarker } from "@/styles/fonts";
 import { Anime } from "@/types/anime";
+import { Manga } from "@/types/manga";
 import { useRef } from "react";
 
-export default function Carrousel({ title, animeData }: { title: string, animeData: Anime[] }) {
+export default function Carrousel({ title, data }: { title: string, data: (Anime | Manga)[] }) {
   const carrouselRef = useRef<HTMLDivElement>(null);
 
   function onLeftClick() {
@@ -38,7 +39,7 @@ export default function Carrousel({ title, animeData }: { title: string, animeDa
     <div className="relative">
       <h2 className={`${permanentMarker.className} text-2xl sm:text-3xl text-primary font-bold`}>{title}</h2>
       <div ref={carrouselRef} className="flex overflow-x-auto gap-5 py-5 snap-x hide-scrollbar">
-        {animeData.map((anime) => (
+        {data.map((anime) => (
           <Link key={anime.mal_id} href={`/anime/${anime.mal_id}`} className="flex-shrink-0 aspect-[2/3] group">
             <Image
               src={anime.images.webp.large_image_url}
