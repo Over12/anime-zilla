@@ -1,17 +1,14 @@
-import data from '@/data/sample-anime.json'
 import Image from 'next/image'
-import { getUniqueAnimeData } from '@/lib/utils'
 import { permanentMarker } from '@/styles/fonts'
 import { Anime } from '@/types/anime'
 
 export default function Hero({ season }: { season: Anime[] }) {
-  season.sort(() => Math.random() - 0.5)
-  season.slice(0, 10)
+  const shuffledSeason = [...season].sort(() => Math.random() - 0.5).slice(0, 10)
 
   return (
     <section className='relative w-full h-svh overflow-hidden'>
       <div className='hidden size-full place-items-start place-content-center-safe sm:grid grid-cols-3 lg:grid-cols-4 px-5 gap-5'>
-        {season.map((anime, index) => (
+        {shuffledSeason.map((anime, index) => (
           <Image
             key={anime.mal_id}
             src={anime.images.webp.large_image_url}
