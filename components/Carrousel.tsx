@@ -51,12 +51,14 @@ export default function Carrousel({ title, data }: { title: string, data: (Anime
             <h3 className="font-semibold text-sm sm:text-base mt-2 w-40 sm:w-52 lg:w-64 line-clamp-1 group-hover:text-primary transition-colors">{anime.title}</h3>
           </Link>
         ))}
-        <button onClick={onLeftClick} className="absolute cursor-pointer hover:scale-110 transition-transform top-1/2 -translate-1/2 left-0 bg-secondary/70 backdrop-blur-lg border-2 border-accent rounded-full p-2 hidden sm:block">
-          <ArrowLeftIcon className="text-text" />
-        </button>
-        <button onClick={onRightClick} className="absolute cursor-pointer hover:scale-110 transition-transform top-1/2 -translate-y-1/2 right-0 translate-x-1/2 bg-secondary/70 backdrop-blur-lg border-2 border-accent rounded-full p-2 hidden sm:block">
-          <ArrowRightIcon className="text-text" />
-        </button>
+        <div className="absolute top-0 right-0 flex items-start gap-5">
+          <button onClick={onLeftClick} className="cursor-pointer hover:scale-110 transition-transform bg-secondary/70 backdrop-blur-lg border-2 border-accent rounded-full p-2 hidden sm:block">
+            <ArrowLeftIcon className="text-text" />
+          </button>
+          <button onClick={onRightClick} className="cursor-pointer hover:scale-110 transition-transform bg-secondary/70 backdrop-blur-lg border-2 border-accent rounded-full p-2 hidden sm:block">
+            <ArrowRightIcon className="text-text" />
+          </button>
+        </div>
       </div>
     </div>
   )
