@@ -14,7 +14,7 @@ export default async function Home() {
     <>
       <NavBar />
       <Hero season={season} />
-      <section className="py-10 px-7 sm:px-10 md:px-14 lg:px-20">
+      <section className="flex flex-col gap-5 py-10 px-7 sm:px-10 md:px-14 lg:px-20">
         <Carrousel title="Últimos animes" data={season} />
         <Carrousel title="Top animes" data={animes} />
         <Carrousel title="Top mangas" data={mangas} />
