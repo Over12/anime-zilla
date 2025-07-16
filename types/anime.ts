@@ -24,4 +24,23 @@ export interface Anime {
   scored_by: number | null;
   synopsis: string;
   background: string | null;
+  season: string | null;
+  year: number | null;
+  relations?: Relation[];
+  streaming?: Streaming[];
+}
+
+interface Relation {
+  relation: string;
+  entry: {
+    mal_id: number;
+    type: string;
+    name: string;
+    url: string;
+  }
+}
+
+interface Streaming {
+  name: string;
+  url: string;
 }
