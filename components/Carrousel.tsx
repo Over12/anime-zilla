@@ -39,16 +39,16 @@ export default function Carrousel({ title, data }: { title: string, data: (Anime
     <div className="relative">
       <h2 className={`${permanentMarker.className} text-2xl sm:text-4xl text-primary font-bold`}>{title}</h2>
       <div ref={carrouselRef} className="flex overflow-x-auto gap-4 py-5 snap-x hide-scrollbar">
-        {data.map((anime) => (
-          <Link key={anime.mal_id} href={`/anime/${anime.mal_id}`} className="flex-shrink-0 aspect-[2/3] group">
+        {data.map((item) => (
+          <Link key={item.mal_id} href={"episodes" in item ? `/anime/${item.mal_id}` : `/manga/${item.mal_id}`} className="flex-shrink-0 aspect-[2/3] group">
             <Image
-              src={anime.images.webp.large_image_url}
-              alt={anime.title}
+              src={item.images.webp.large_image_url}
+              alt={item.title}
               width={300}
               height={450}
               className="object-fill rounded-xl sm:transition-opacity sm:opacity-70 sm:group-hover:opacity-100 h-full w-40 sm:w-52 lg:w-64 snap-center sm:snap-start"
             />
-            <h3 className="font-semibold text-sm sm:text-base mt-2 w-40 sm:w-52 lg:w-64 line-clamp-1 group-hover:text-primary transition-colors" title={anime.title}>{anime.title}</h3>
+            <h3 className="font-semibold text-sm sm:text-base mt-2 w-40 sm:w-52 lg:w-64 line-clamp-1 group-hover:text-primary transition-colors" title={item.title}>{item.title}</h3>
           </Link>
         ))}
         <div className="hidden sm:flex absolute top-0 right-0 gap-3">

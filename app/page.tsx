@@ -2,7 +2,6 @@
 
 import Carrousel from "@/components/Carrousel"
 import Hero from "@/components/Hero"
-import NavBar from "@/components/NavBar"
 import { getAnimeSeason, getTopAnimes, getTopMangas } from "@/lib/api"
 
 export default async function Home() {
@@ -12,7 +11,6 @@ export default async function Home() {
 
   return (
     <>
-      <NavBar />
       <Hero season={season} />
       <section className="flex flex-col gap-5 py-10 px-7 sm:px-10 md:px-14 lg:px-20">
         <Carrousel title="Últimos animes" data={season} />

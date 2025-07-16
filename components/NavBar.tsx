@@ -4,31 +4,17 @@ import Link from "next/link"
 import { useEffect, useState } from "react"
 import MenuIcon from "./icons/MenuIcons"
 import { tradeWinds } from "@/styles/fonts";
+import { usePathname } from "next/navigation";
 
 export default function NavBar() {
-  const [path, setPath] = useState("");
+  const path = usePathname();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  useEffect(() => {
-    const handlePathChange = () => {
-      setPath(window.location.pathname);
-    }
-
-    handlePathChange()
-    window.addEventListener("popstate", handlePathChange)
-
-    return () => {
-      window.removeEventListener("popstate", handlePathChange)
-    }
-  }, [])
 
   const isHome = path === "/";
   const isAnimes = path.startsWith("/animes");
   const isMangas = path.startsWith("/mangas");
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  }
+  const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
 
   return (
     <nav className="border-b-2 border-secondary sm:border-none bg-background sm:bg-background/90 sm:backdrop-blur-lg px-7 py-3 sm:px-10 md:px-14 lg:px-20 fixed w-full z-50 flex justify-between items-center">
