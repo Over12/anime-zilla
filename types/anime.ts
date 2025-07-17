@@ -22,6 +22,9 @@ export interface Anime {
   rating: string;
   score: number | null;
   scored_by: number | null;
+  rank: number | null;
+  popularity: number | null;
+  favorites: number | null;
   synopsis: string;
   background: string | null;
   season: string | null;
