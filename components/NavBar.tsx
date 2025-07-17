@@ -18,10 +18,12 @@ export default function NavBar() {
 
   return (
     <nav className="border-b-2 border-secondary sm:border-none bg-background sm:bg-background/90 sm:backdrop-blur-lg px-7 py-3 sm:px-10 md:px-14 lg:px-20 fixed w-full z-50 flex justify-between items-center">
-      <div className="flex items-center gap-2">
-        <img src="/logo.webp" alt="Logo" className="w-14 sm:w-16" />
-        <h1 className={`${tradeWinds.className} text-2xl sm:text-3xl font-bold`}>AnimeZilla</h1>
-      </div>
+      <Link href="/">
+        <div className="flex items-center gap-2">
+          <img src="/logo.webp" alt="Logo" className="w-14 sm:w-16" />
+          <h1 className={`${tradeWinds.className} text-2xl sm:text-3xl font-bold`}>AnimeZilla</h1>
+        </div>
+      </Link>
       <ul className="hidden sm:flex gap-5 sm:gap-10 text-base sm:text-lg">
         <li><Link className={`${isHome ? "font-bold" : ""}`} href="/">Inicio</Link></li>
         <li><Link className={`${isAnimes ? "font-bold" : ""}`} href="/animes">Animes</Link></li>
