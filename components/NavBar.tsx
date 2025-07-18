@@ -25,7 +25,7 @@ export default function NavBar() {
         </div>
       </Link>
       <ul className="hidden sm:flex gap-5 sm:gap-10 text-base sm:text-lg">
-        <li><Link className={`${isHome ? "font-bold" : ""}`} href="/">Inicio</Link></li>
+        <li><Link className={`${isHome ? "font-bold" : ""}`} href="/">Home</Link></li>
         <li><Link className={`${isAnimes ? "font-bold" : ""}`} href="/animes">Animes</Link></li>
         <li><Link className={`${isMangas ? "font-bold" : ""}`} href="/mangas">Mangas</Link></li>
       </ul>
@@ -35,7 +35,7 @@ export default function NavBar() {
         </button>
         <div className={`absolute w-1/2 transition-transform border-l-2 border-secondary top-20 bg-background p-10 right-0 h-screen ${isMenuOpen ? "translate-x-0" : "translate-x-full"}`}>
           <ul className="flex flex-col gap-5 text-lg">
-            <li><Link className={`${isHome ? "font-bold" : ""}`} href="/">Inicio</Link></li>
+            <li><Link className={`${isHome ? "font-bold" : ""}`} href="/">Home</Link></li>
             <li><Link className={`${isAnimes ? "font-bold" : ""}`} href="/animes">Animes</Link></li>
             <li><Link className={`${isMangas ? "font-bold" : ""}`} href="/mangas">Mangas</Link></li>
           </ul>
