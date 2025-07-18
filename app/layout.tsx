@@ -17,7 +17,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="es" data-theme="dark">
+    <html lang="en" data-theme="dark">
       <body className={`${onest.className} bg-background text-text transition-colors duration-300`}>
         <NavBar />
         {children}
