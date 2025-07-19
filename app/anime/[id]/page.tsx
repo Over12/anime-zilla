@@ -1,7 +1,29 @@
 import { Badge } from "@/components/common/Badge";
 import { StarIcon } from "@/components/icons/StarIcon";
 import { getAnimeById } from "@/lib/api";
+import type { Metadata } from "next"
 import Image from "next/image";
+
+export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+  const { id } = await params;
+  const anime = await getAnimeById(Number(id));
+  return {
+    title: "AnimeZilla - " + anime.title,
+    description: anime.synopsis,
+    openGraph: {
+      title: anime.title,
+      description: anime.synopsis,
+      url: `https://your-site.com/anime/${anime.mal_id}`,
+      images: [
+        {
+          url: anime.images.webp.large_image_url,
+          width: 800,
+          height: 600,
+        },
+      ],
+    },
+  }
+}
 
 export default async function AnimePage({ params }: { params: { id: string } }) {
   const { id } = await params;
