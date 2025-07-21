@@ -45,7 +45,10 @@ export interface Anime {
   year: number | null;
   broadcast: Broadcast | null;
   genres: Genre[];
-  relations?: Relation[];
+  relations?: {
+    relation: string;
+    entry: Relation[];
+  }[];
   streaming?: Streaming[];
 }
 
@@ -64,13 +67,10 @@ interface Genre {
 }
 
 interface Relation {
-  relation: string;
-  entry: {
-    mal_id: number;
-    type: string;
-    name: string;
-    url: string;
-  }
+  mal_id: number;
+  type: string;
+  name: string;
+  url: string;
 }
 
 interface Streaming {
