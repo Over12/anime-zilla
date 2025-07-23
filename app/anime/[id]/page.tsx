@@ -107,7 +107,7 @@ export default async function AnimePage({ params }: { params: { id: string } }) 
           )}
         </div>
       </main>
-      <section className="px-7 mt-5 sm:px-10 md:px-14 lg:px-20">
+      <section className="px-7 my-5 sm:px-10 md:px-14 lg:px-20">
           <h2 className="text-2xl lg:text-4xl font-bold">Relations</h2>
           <div className="mt-3 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5">
             {anime.relations?.map((relation, index) => (
