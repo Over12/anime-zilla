@@ -48,3 +48,15 @@ export async function getAnimeById(id: number): Promise<Anime> {
 
   return data.data
 }
+
+//* Obtener información de un manga específico por ID
+export async function getMangaById(id: number): Promise<Anime> {
+  const response = await fetch(`${process.env.API_URL}/manga/${id}/full`, {
+    next: { revalidate: 300 }
+  })
+
+  if (!response.ok) throw new Error("Error al obtener el manga")
+  const data = await response.json()
+
+  return data.data
+}

@@ -1,3 +1,5 @@
+import { Genre, Relation } from "./anime";
+
 export interface Manga {
   mal_id: number;
   url: string;
@@ -22,6 +24,14 @@ export interface Manga {
   publishing: boolean;
   score: number | null;
   scored_by: number | null;
+  rank: number | null;
+  popularity: number | null;
+  favorites: number | null;
   synopsis: string;
   background: string | null;
+  genres: Genre[];
+  relations?: {
+    relation: string;
+    entry: Relation[];
+  }[];
 }

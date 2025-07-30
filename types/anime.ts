@@ -59,14 +59,14 @@ interface Broadcast {
   string: string;
 }
 
-interface Genre {
+export interface Genre {
   mal_id: number;
   type: string;
   name: string;
   url: string;
 }
 
-interface Relation {
+export interface Relation {
   mal_id: number;
   type: string;
   name: string;
