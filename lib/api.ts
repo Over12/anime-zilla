@@ -1,9 +1,9 @@
 import { Anime } from "@/types/anime"
 import { getUniqueAnimeData } from "./utils"
 
-//* Obtener la lista de los 15 primeros animes de la temporada actual
+//* Obtener la lista de animes de la temporada actual
 export async function getAnimeSeason() {
-  const response = await fetch(`${process.env.API_URL}/seasons/now?limit=15`, {
+  const response = await fetch(`${process.env.API_URL}/seasons/now`, {
     next: { revalidate: 300 }
   })
 
@@ -13,9 +13,9 @@ export async function getAnimeSeason() {
   return getUniqueAnimeData(data.data)
 }
 
-//* Obtener la lista de los 15 primeros animes populares
+//* Obtener la lista de animes populares
 export async function getTopAnimes() {
-  const response = await fetch(`${process.env.API_URL}/top/anime?limit=15`, {
+  const response = await fetch(`${process.env.API_URL}/top/anime`, {
     next: { revalidate: 300 }
   })
 
@@ -25,9 +25,9 @@ export async function getTopAnimes() {
   return getUniqueAnimeData(data.data)
 }
 
-//* Obtener la lista de los 15 primeros mangas populares
+//* Obtener la lista de mangas populares
 export async function getTopMangas() {
-  const response = await fetch(`${process.env.API_URL}/top/manga?limit=15`, {
+  const response = await fetch(`${process.env.API_URL}/top/manga`, {
     next: { revalidate: 300 }
   })
 
