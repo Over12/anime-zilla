@@ -1,7 +1,12 @@
-export default function AnimesPage() {
+import MediaContainer from "@/components/media/MediaContainer";
+import { getAnimes } from "@/lib/api";
+
+export default async function AnimesPage() {
+  const media = await getAnimes({ numberPage: 1 })
+
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen">
-      <h1>Animes</h1>
-    </main>
+    <>
+      <MediaContainer title="Animes" media={media} />
+    </>
   )
 }
