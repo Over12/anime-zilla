@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
         pathname: "/**",
       },
     ],
+    // Configuraciones para manejar timeouts y optimización
+    dangerouslyAllowSVG: true,
+    minimumCacheTTL: 60,
+    formats: ['image/webp', 'image/avif'],
   }
 };
 
