@@ -27,14 +27,23 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     fetchData();
   }, [numberPage, mediaType])
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  }
+
   const previousPage = () => {
     if (numberPage > 1) {
+      scrollToTop();
       setNumberPage(numberPage - 1);
     }
   }
 
   const nextPage = () => {
     if (media?.pagination?.hasNextPage) {
+      scrollToTop();
       setNumberPage(numberPage + 1);
     }
   }

@@ -2,6 +2,7 @@ import { Anime } from "@/types/anime";
 import { ApiResponse } from "@/types/apiResponse";
 import { Manga } from "@/types/manga";
 import MediaCard from "./MediaCard";
+import MediaContainerSkeleton from "../ui/MediaContainerSkeleton";
 
 export default function MediaContainer({ title = "Media", media, loading = false }: { title?: string, media: ApiResponse<Anime | Manga> | null, loading?: boolean }) {
   return (
@@ -9,9 +10,7 @@ export default function MediaContainer({ title = "Media", media, loading = false
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">{title}</h1>
 
       {loading ? (
-        <div className="mt-5 text-center">
-          <p>Cargando...</p>
-        </div>
+        <MediaContainerSkeleton />
       ) : (
         <div className="mt-5 flex flex-wrap justify-around gap-3 sm:gap-5">
           {media?.data.map((item) => (
