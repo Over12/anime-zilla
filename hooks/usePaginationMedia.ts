@@ -81,7 +81,16 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     setSelectedPage(media?.pagination?.currentPage || 1);
   }
 
-  //TODO: Implementar una función para manejar el evento press Enter en el input de página
+  const onKeyPressInput = (e: React.KeyboardEvent<HTMLInputElement>) => {
+    if (e.key === "Enter") {
+      const page = Number(selectedPage);
+      if (!isNaN(page) && page >= 1 && page <= (media?.pagination?.lastPage || 1)) {
+        selectPage({ page });
+      } else {
+        setSelectedPage(media?.pagination?.currentPage || 1);
+      }
+    }
+  }
 
-  return { media, loading, previousPage, nextPage, selectPage, selectedPage, changePage, onBlurInput };
+  return { media, loading, previousPage, nextPage, selectedPage, changePage, onBlurInput, onKeyPressInput };
 }
