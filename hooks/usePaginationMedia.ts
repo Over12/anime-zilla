@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime" | "manga" }) {
   const [media, setMedia] = useState<ApiResponse<Anime | Manga> | null>(null);
   const [numberPage, setNumberPage] = useState<number>(1);
-  const [selectedPage, setSelectedPage] = useState<number>(1);
+  const [selectedPage, setSelectedPage] = useState<number | string>(1);
   const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
@@ -26,6 +26,7 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     }
 
     fetchData();
+    setSelectedPage(numberPage);
   }, [numberPage, mediaType]);
 
   const scrollToTop = () => {
@@ -64,7 +65,7 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     }
 
     if (page < 1) {
-      setSelectedPage(1);
+      setSelectedPage("");
       return;
     }
 
@@ -79,6 +80,8 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
   const onBlurInput = () => {
     setSelectedPage(media?.pagination?.currentPage || 1);
   }
+
+  //TODO: Implementar una función para manejar el evento press Enter en el input de página
 
   return { media, loading, previousPage, nextPage, selectPage, selectedPage, changePage, onBlurInput };
 }

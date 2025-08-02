@@ -2,17 +2,9 @@
 
 import MediaContainer from "@/components/media/MediaContainer";
 import { usePaginationMedia } from "@/hooks/usePaginationMedia";
-import { useState, useEffect } from "react";
 
 export default function AnimesPage() {
-  const { media, loading, previousPage, nextPage, selectPage } = usePaginationMedia({ mediaType: "anime" });
-  const [selectedPage, setSelectedPage] = useState(media?.pagination?.currentPage?.toString() || '1');
-
-  useEffect(() => {
-    if (media?.pagination?.currentPage) {
-      setSelectedPage(media.pagination.currentPage.toString());
-    }
-  }, [media?.pagination?.currentPage]);
+  const { media, loading, previousPage, nextPage, selectPage, selectedPage, changePage, onBlurInput } = usePaginationMedia({ mediaType: "anime" });
 
   return (
     <>
@@ -23,7 +15,7 @@ export default function AnimesPage() {
         </button>
         
         <span className="font-semibold mx-5 text-sm text-center">
-          Página <input type="text" value={Number(selectPage)} placeholder="1" className="w-8 h-6 text-center border-b-2 border-accent bg-transparent focus:outline-none" />
+          Página <input type="text" value={selectedPage.toString()} onChange={changePage} onBlur={onBlurInput} placeholder="1" className="w-8 h-6 text-center border-b-2 border-accent bg-transparent focus:outline-none" />
           <span> de {media?.pagination?.lastPage}</span>
         </span>
 
