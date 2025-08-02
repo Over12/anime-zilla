@@ -7,9 +7,10 @@ import { Manga } from "@/types/manga";
 import { useEffect, useState } from "react";
 
 export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime" | "manga" }) {
-  const [numberPage, setNumberPage] = useState(1);
   const [media, setMedia] = useState<ApiResponse<Anime | Manga> | null>(null);
-  const [loading, setLoading] = useState(true);
+  const [numberPage, setNumberPage] = useState<number>(1);
+  const [selectedPage, setSelectedPage] = useState<number>(1);
+  const [loading, setLoading] = useState<boolean>(true);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -25,13 +26,20 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     }
 
     fetchData();
-  }, [numberPage, mediaType])
+  }, [numberPage, mediaType]);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
       behavior: "smooth"
     });
+  }
+
+  const selectPage = ({ page }: { page: number }) => {
+    if (page >= 1 && page <= (media?.pagination?.lastPage || 1)) {
+      scrollToTop();
+      setNumberPage(page);
+    }
   }
 
   const previousPage = () => {
@@ -47,6 +55,30 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
       setNumberPage(numberPage + 1);
     }
   }
+  
+  const changePage = (e: React.ChangeEvent<HTMLInputElement>) => {
+    const page = Number(e.target.value);
+    
+    if (isNaN(page)) {
+      return;
+    }
 
-  return { media, loading, previousPage, nextPage };
+    if (page < 1) {
+      setSelectedPage(1);
+      return;
+    }
+
+    if (page > (media?.pagination?.lastPage || 1)) {
+      setSelectedPage(media?.pagination?.lastPage || 1);
+      return;
+    }
+
+    setSelectedPage(page);
+  }
+
+  const onBlurInput = () => {
+    setSelectedPage(media?.pagination?.currentPage || 1);
+  }
+
+  return { media, loading, previousPage, nextPage, selectPage, selectedPage, changePage, onBlurInput };
 }
