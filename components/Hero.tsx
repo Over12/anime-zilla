@@ -1,6 +1,6 @@
-import Image from 'next/image'
 import { permanentMarker } from '@/styles/fonts'
 import { Anime } from '@/types/anime'
+import Image from 'next/image'
 
 export default function Hero({ season }: { season: Anime[] }) {
   const shuffledSeason = [...season].sort(() => Math.random() - 0.5).slice(0, 10)
@@ -15,6 +15,7 @@ export default function Hero({ season }: { season: Anime[] }) {
             alt={anime.title}
             width={300}
             height={450}
+            priority={true}
             className={`object-fill rounded-xl size-full ${index % 2 === 1 ? "lg:translate-y-24" : "lg:translate-y-7 xl:-translate-y-24"}`}
           />
         ))}

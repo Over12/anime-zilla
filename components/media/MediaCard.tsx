@@ -29,7 +29,7 @@ export default function MediaCard({ item }: { item : Anime | Manga }) {
         
         {/* Image */}
         {!imageError && (
-          <Image
+          <img
             src={item.images.webp.large_image_url}
             alt={item.title}
             width={300}
@@ -38,8 +38,7 @@ export default function MediaCard({ item }: { item : Anime | Manga }) {
               imageLoaded ? 'sm:opacity-70' : 'opacity-0'
             }`}
             loading="lazy"
-            sizes="(max-width: 640px) 160px, (max-width: 1024px) 208px, 256px"
-            priority={false}
+            sizes="(max-width: 768px) 200px, 256px"
             onLoad={() => setImageLoaded(true)}
             onError={() => {
               setImageError(true);
