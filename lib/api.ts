@@ -37,9 +37,9 @@ export async function getTopMangas() {
   return getUniqueAnimeData(data.data)
 }
 
-//* Obtener la lista de animes populares
+//* Obtener la lista de animes
 export async function getAnimes({ numberPage = 1 }: { numberPage?: number } = {}) {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/top/anime?page=${numberPage}`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/anime?page=${numberPage}`, {
     next: { revalidate: 300 }
   })
 
@@ -57,9 +57,9 @@ export async function getAnimes({ numberPage = 1 }: { numberPage?: number } = {}
   }
 }
 
-//* Obtener la lista de mangas populares
+//* Obtener la lista de mangas
 export async function getMangas({ numberPage = 1 }: { numberPage?: number } = {}) {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/top/manga?page=${numberPage}`, {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/manga?page=${numberPage}`, {
     next: { revalidate: 300 }
   })
 
