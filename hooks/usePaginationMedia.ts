@@ -3,12 +3,14 @@
 import { getAnimes, getMangas } from "@/lib/api";
 import { Anime } from "@/types/anime";
 import { ApiResponse } from "@/types/apiResponse";
+import { MediaFilter } from "@/types/filters";
 import { Manga } from "@/types/manga";
 import { useEffect, useState } from "react";
 
 export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime" | "manga" }) {
   const [media, setMedia] = useState<ApiResponse<Anime | Manga> | null>(null);
   const [numberPage, setNumberPage] = useState<number>(1);
+  const [filter, setFilter] = useState<MediaFilter>({ q: null, type: null, rating: null, sfw: true });
   const [selectedPage, setSelectedPage] = useState<number | string>(1);
   const [loading, setLoading] = useState<boolean>(true);
 
@@ -16,7 +18,7 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     const fetchData = async () => {
       setLoading(true);
       try {
-        const response = mediaType === "anime" ? await getAnimes({ numberPage }) : await getMangas({ numberPage });
+        const response = mediaType === "anime" ? await getAnimes({ numberPage, filters: filter }) : await getMangas({ numberPage, filters: filter });
         setMedia(response);
       } catch (error) {
         console.error("Error fetching data:", error);
@@ -27,7 +29,12 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
 
     fetchData();
     setSelectedPage(numberPage);
-  }, [numberPage, mediaType]);
+  }, [numberPage, mediaType, filter]);
+
+  const updateFilter = (newFilter: MediaFilter) => {
+    setNumberPage(1);
+    setFilter(prevFilter => ({ ...prevFilter, ...newFilter }));
+  }
 
   const scrollToTop = () => {
     window.scrollTo({
@@ -92,5 +99,5 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     }
   }
 
-  return { media, loading, previousPage, nextPage, selectedPage, changePage, onBlurInput, onKeyPressInput };
+  return { media, updateFilter, loading, previousPage, nextPage, selectedPage, changePage, onBlurInput, onKeyPressInput };
 }

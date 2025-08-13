@@ -1,5 +1,6 @@
 import { Anime } from "@/types/anime"
 import { getUniqueAnimeData } from "./utils"
+import { MediaFilter } from "@/types/filters"
 
 //* Obtener la lista de animes de la temporada actual
 export async function getAnimeSeason() {
@@ -38,8 +39,17 @@ export async function getTopMangas() {
 }
 
 //* Obtener la lista de animes
-export async function getAnimes({ numberPage = 1 }: { numberPage?: number } = {}) {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/anime?page=${numberPage}`, {
+export async function getAnimes({ numberPage = 1, filters }: { numberPage?: number, filters: MediaFilter }) {
+  const params = new URLSearchParams({
+    page: numberPage.toString(),
+    sfw: filters.sfw.toString()
+  });
+
+  if (filters.q) params.append('q', filters.q);
+  if (filters.type) params.append('type', filters.type);
+  if (filters.rating) params.append('rating', filters.rating);
+
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/anime?${params.toString()}`, {
     next: { revalidate: 300 }
   })
 
@@ -58,8 +68,16 @@ export async function getAnimes({ numberPage = 1 }: { numberPage?: number } = {}
 }
 
 //* Obtener la lista de mangas
-export async function getMangas({ numberPage = 1 }: { numberPage?: number } = {}) {
-  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/manga?page=${numberPage}`, {
+export async function getMangas({ numberPage = 1, filters }: { numberPage?: number, filters: MediaFilter }) {
+  const params = new URLSearchParams({
+    page: numberPage.toString(),
+    sfw: filters.sfw.toString()
+  });
+
+  if (filters.q) params.append('q', filters.q);
+  if (filters.type) params.append('type', filters.type);
+
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/manga?${params.toString()}`, {
     next: { revalidate: 300 }
   })
 
@@ -96,6 +114,18 @@ export async function getMangaById(id: number): Promise<Anime> {
   })
 
   if (!response.ok) throw new Error("Error al obtener el manga")
+  const data = await response.json()
+
+  return data.data
+}
+
+//* Obtener géneros
+export async function getGenres({ type, filter = "genres" }: { type: string, filter?: string }) {
+  const response = await fetch(`${process.env.NEXT_PUBLIC_API_URL}/genres/${type}?filter=${filter}`, {
+    next: { revalidate: 1800 }
+  })
+
+  if (!response.ok) throw new Error("Error al obtener los géneros")
   const data = await response.json()
 
   return data.data

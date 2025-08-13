@@ -3,6 +3,10 @@ import { Anime } from "@/types/anime";
 export function getUniqueAnimeData(animeList: Anime[]) {
   const uniqueAnime = new Map<number, Anime>();
 
+  if (!animeList || animeList.length === 0) {
+    return [];
+  }
+
   animeList.forEach(anime => {
     if (!uniqueAnime.has(anime.mal_id)) {
       uniqueAnime.set(anime.mal_id, anime);
