@@ -36,7 +36,7 @@ export default function Carrousel({ title, data }: { title: string, data: (Anime
 
   return (
     <div className="relative">
-      <h2 className={`${permanentMarker.className} text-2xl sm:text-4xl text-primary font-bold`}>{title}</h2>
+      <h2 className={`${permanentMarker.className} text-2xl sm:text-4xl bg-clip-text text-transparent bg-gradient-to-r to-30% from-primary to-secondary font-bold`}>{title}</h2>
       <div ref={carrouselRef} className="flex overflow-x-auto gap-4 py-5 snap-x hide-scrollbar">
         {data.map((item) => (
           <MediaCard key={item.mal_id} item={item} />
