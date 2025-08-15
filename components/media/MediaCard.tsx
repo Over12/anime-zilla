@@ -18,7 +18,7 @@ export default function MediaCard({ item }: { item : Anime | Manga }) {
 
   return (
     <Link href={"episodes" in item ? `/anime/${item.mal_id}` : `/manga/${item.mal_id}`} className="flex-shrink-0 aspect-[2/3] group">
-      <div className="relative w-36 sm:w-52 lg:w-64 h-56 sm:full">
+      <div className="relative w-36 sm:w-52 lg:w-64 h-56 sm:h-full">
         {!imageLoaded && (
           <div className="absolute inset-0 rounded-xl bg-gray-700 animate-pulse">
           </div>
