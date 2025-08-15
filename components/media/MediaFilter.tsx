@@ -65,7 +65,7 @@ export default function MediaFilter({ media_type, updater }: { media_type: strin
         {media_type === "animes" && (
           <div className="flex gap-2 justify-center items-center h-full">
             <label htmlFor="media_rating" className="text-sm font-semibold">Rating:</label>
-            <select id="media_rating" name="rating" onChange={handleInputChange} className="bg-background px-2 py-1 border-b-2 border-accent cursor-pointer focus:outline-none">
+            <select id="media_rating" name="rating" onChange={handleInputChange} className="bg-background px-2 py-1 max-w-20 sm:max-w-none border-b-2 border-accent cursor-pointer focus:outline-none">
               <option value="">All Ratings</option>
               <option value="g">G - All Ages</option>
               <option value="pg">PG - Children</option>
