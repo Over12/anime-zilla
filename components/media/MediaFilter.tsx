@@ -1,7 +1,7 @@
 'use client'
 
 import { MediaFilter as Filter } from "@/types/filters"
-import { useEffect, useState } from "react"
+import { useState } from "react"
 
 export default function MediaFilter({ media_type, updater }: { media_type: string, updater: (filter: Filter) => void }) {
   const [filter, setFilter] = useState<Filter>({ q: null, type: null, rating: null, sfw: true });
