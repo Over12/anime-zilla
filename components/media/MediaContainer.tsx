@@ -9,14 +9,14 @@ import { tradeWinds } from "@/styles/fonts";
 
 export default function MediaContainer({ title = "Media", media, loading = false, updater }: { title?: string, media: ApiResponse<Anime | Manga> | null, loading?: boolean, updater: (filter: Filter) => void }) {
   return (
-    <main className="px-7 pt-24 sm:px-10 md:px-14 lg:px-20">
+    <main className="px-3.5 pt-24 sm:px-10 md:px-14 lg:px-20">
       <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">{title}</h1>
       <MediaFilter media_type={title.toLowerCase()} updater={updater} />
 
       {loading ? (
         <MediaContainerSkeleton />
       ) : (
-        <div className="mt-5 flex flex-wrap justify-around gap-2 sm:gap-5">
+        <div className="mt-5 flex flex-wrap justify-around gap-3 sm:gap-5">
           {media?.data.length === 0 && (
             <p className={`${tradeWinds.className} text-gray-400 h-60 flex items-center`}>No results found.</p>
           )}
