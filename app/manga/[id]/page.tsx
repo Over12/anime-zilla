@@ -4,7 +4,7 @@ import MediaSidebar from "@/components/media/MediaSidebar";
 import { getMangaById } from "@/lib/api";
 import type { Metadata } from "next";
 
-export async function generateMetadata({ params }: { params: { id: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: Promise<{ id: string }> }): Promise<Metadata> {
   const { id } = await params;
   const manga = await getMangaById(Number(id));
   return {
@@ -25,7 +25,7 @@ export async function generateMetadata({ params }: { params: { id: string } }): 
   }
 }
 
-export default async function MangaPage({ params }: { params: { id: string } }) {
+export default async function MangaPage({ params }: { params: Promise<{ id: string }> }) {
   const { id } = await params;
   const manga = await getMangaById(Number(id));
 
