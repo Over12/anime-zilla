@@ -16,7 +16,7 @@ export default function MediaContainer({ title = "Media", media, loading = false
       {loading ? (
         <MediaContainerSkeleton />
       ) : (
-        <div className="mt-5 flex flex-wrap justify-around gap-3 sm:gap-5">
+        <div className="mt-5 flex flex-wrap justify-around gap-2 sm:gap-5">
           {media?.data.length === 0 && (
             <p className={`${tradeWinds.className} text-gray-400 h-60 flex items-center`}>No results found.</p>
           )}
