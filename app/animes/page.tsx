@@ -2,8 +2,9 @@
 
 import MediaContainer from "@/components/media/MediaContainer";
 import { usePaginationMedia } from "@/hooks/usePaginationMedia";
+import { Suspense } from "react";
 
-export default function AnimesPage() {
+function AnimesContent() {
   const { media, loading, updateFilter, previousPage, nextPage, selectedPage, changePage, onBlurInput, onKeyPressInput } = usePaginationMedia({ mediaType: "anime" });
 
   return (
@@ -25,4 +26,12 @@ export default function AnimesPage() {
       </div>
     </>
   )
+}
+
+export default function AnimesPage() {
+  return (
+    <Suspense fallback={<div className="flex justify-center items-center h-64"><div className="text-lg">Loading...</div></div>}>
+      <AnimesContent />
+    </Suspense>
+  );
 }

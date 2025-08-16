@@ -2,8 +2,9 @@
 
 import MediaContainer from "@/components/media/MediaContainer";
 import { usePaginationMedia } from "@/hooks/usePaginationMedia";
+import { Suspense } from "react";
 
-export default function MangasPage() {
+function MangasContent() {
   const { media, loading, updateFilter, previousPage, nextPage, selectedPage, changePage, onBlurInput, onKeyPressInput } = usePaginationMedia({ mediaType: "manga" });
 
   return (
@@ -24,5 +25,13 @@ export default function MangasPage() {
         </button>
       </div>
     </>
+  );
+}
+
+export default function MangasPage() {
+  return (
+    <Suspense fallback={<div className="flex justify-center items-center h-64"><div className="text-lg">Loading...</div></div>}>
+      <MangasContent />
+    </Suspense>
   );
 }

@@ -12,34 +12,22 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
   const router = useRouter();
   const searchParams = useSearchParams();
   
-  // Estados iniciales por defecto
+  // Leer parámetros iniciales de la URL
+  const initialPage = Number(searchParams.get("page")) || 1;
+  const initialFilter: MediaFilter = {
+    q: searchParams.get("q") || null,
+    type: searchParams.get("type") as any || null,
+    rating: searchParams.get("rating") as any || null,
+    sfw: searchParams.get("sfw") === "false" ? false : true,
+  };
+
   const [media, setMedia] = useState<ApiResponse<Anime | Manga> | null>(null);
-  const [filter, setFilter] = useState<MediaFilter>({ q: null, type: null, rating: null, sfw: true });
-  const [selectedPage, setSelectedPage] = useState<number | string>(1);
+  const [filter, setFilter] = useState<MediaFilter>(initialFilter);
+  const [selectedPage, setSelectedPage] = useState<number | string>(initialPage);
   const [loading, setLoading] = useState<boolean>(true);
-  const [numberPage, setNumberPage] = useState<number>(1);
-  const [isInitialized, setIsInitialized] = useState<boolean>(false);
+  const [numberPage, setNumberPage] = useState<number>(initialPage);
 
   useEffect(() => {
-    if (!isInitialized) {
-      const initialPage = Number(searchParams.get("page")) || 1;
-      const initialFilter: MediaFilter = {
-        q: searchParams.get("q") || null,
-        type: searchParams.get("type") as any || null,
-        rating: searchParams.get("rating") as any || null,
-        sfw: searchParams.get("sfw") === "false" ? false : true,
-      };
-
-      setNumberPage(initialPage);
-      setSelectedPage(initialPage);
-      setFilter(initialFilter);
-      setIsInitialized(true);
-    }
-  }, [searchParams, isInitialized]);
-
-  useEffect(() => {
-    if (!isInitialized) return;
-
     const fetchData = async () => {
       setLoading(true);
       try {
@@ -54,17 +42,15 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
 
     fetchData();
     setSelectedPage(numberPage);
-  }, [numberPage, mediaType, filter, isInitialized]);
+  }, [numberPage, mediaType, filter]);
 
+  // Efecto separado para actualizar la URL
   useEffect(() => {
-    if (isInitialized) {
-      updateURL();
-    }
-  }, [numberPage, filter, isInitialized]);
+    updateURL();
+  }, [numberPage, filter]);
 
+  // Efecto para sincronizar con cambios en la URL (botón atrás del navegador)
   useEffect(() => {
-    if (!isInitialized) return;
-
     const currentPage = Number(searchParams.get("page")) || 1;
     const urlFilter: MediaFilter = {
       q: searchParams.get("q") || null,
@@ -73,10 +59,12 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
       sfw: searchParams.get("sfw") === "false" ? false : true,
     };
 
+    // Solo actualizar si hay diferencias
     if (currentPage !== numberPage) {
       setNumberPage(currentPage);
     }
 
+    // Comparar filtros
     const filtersChanged = 
       filter.q !== urlFilter.q ||
       filter.type !== urlFilter.type ||
@@ -86,7 +74,7 @@ export function usePaginationMedia({ mediaType = "manga" }: { mediaType: "anime"
     if (filtersChanged) {
       setFilter(urlFilter);
     }
-  }, [searchParams, isInitialized]);
+  }, [searchParams]);
 
   const updateURL = () => {
     const currentUrlPage = Number(searchParams.get("page")) || 1;
