@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎌 Anime Zilla
 
-## Getting Started
+Una aplicación web moderna desarrollada con Next.js para explorar y descubrir anime y manga. Anime Zilla te permite navegar por los últimos animes de temporada, los más populares y una amplia colección de manga.
 
-First, run the development server:
+## ✨ Características
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- 📺 **Exploración de Anime**: Descubre los animes más populares y los de la temporada actual
+- 📚 **Catálogo de Manga**: Explora una amplia colección de manga
+- 🔍 **Búsqueda y Filtros**: Sistema de filtrado avanzado para encontrar contenido específico
+- 📱 **Diseño Responsivo**: Interfaz adaptada para todos los dispositivos
+- ⚡ **Carga Rápida**: Optimización con Next.js 15 y Turbopack
+- 🎨 **Interfaz Moderna**: Diseño atractivo con TailwindCSS
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tecnologías Utilizadas
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Framework**: [Next.js 15](https://nextjs.org) con App Router
+- **Frontend**: React 19, TypeScript
+- **Estilos**: TailwindCSS 4
+- **API**: Integración con Jikan API (MyAnimeList)
+- **Herramientas**: ESLint, PostCSS
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🌟 Funcionalidades Principales
 
-## Learn More
+### Página Principal
+- Carrusel de animes de temporada actual
+- Top animes más populares
+- Top manga más populares
 
-To learn more about Next.js, take a look at the following resources:
+### Navegación
+- Explorar animes por categorías
+- Explorar manga por categorías
+- Páginas de detalle con información completa
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Sistema de Filtros
+- Filtrado por género, estado, tipo
+- Búsqueda por nombre
+- Paginación integrada
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📄 Licencia
 
-## Deploy on Vercel
+Este proyecto es de código abierto y está disponible bajo la [Licencia MIT](LICENSE).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Desarrollado con ❤️ por [Over12](https://github.com/Over12)
